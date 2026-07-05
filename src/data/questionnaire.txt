@@ -1,0 +1,485 @@
+Umfrage Präsenz und Einsatz von IT im öffentlichen Raum (Sensoren)
+
+Einleitungstext								
+Guten Tag, mein Name ist … von der ARIS Umfrageforschung GmbH aus Hamburg. Wir führen zurzeit eine Umfrage im Auftrag eines renommierten Fraunhofer-Instituts *) durch. Die Personenauswahl dafür erfolgt zufällig. Darf ich die Person im Alter ab 16 Jahren aus Ihrem Haushalt sprechen, die zuletzt Geburtstag hatte?
+Wir möchten gern mit Personen verschiedener Altersgruppen sprechen, um zu erfahren, wie sie Geräte mit Sensoren im öffentlichen Raum wahrnehmen und was sie darüber denken. Die Befragung dauert etwa 15 Minuten. Alle Ihre Angaben werden anonym behandelt, nur in allgemeiner Form ausgewertet und dienen rein wissenschaftlichen Zwecken.
+Bevor das Interview startet, habe ich noch ein paar kurze Informationen: Gerne geben wir Ihnen die Kontaktdaten unseres Datenschutzbeauftragten bekannt, den Sie unter datenschutz@arisumfrageforschung.de kontaktieren können. Dort finden Sie auch unsere ausführlichen Informationen zum Datenschutz und u.a. Ihre Rechte auf Auskunft, Berichtung, Löschung und Einschränkung sowie Widerspruch gegen die Verarbeitung und das Recht auf Beschwerde bei der Datenschutzaufsichtsbehörde. 
+*) INT bei Bedarf erläutern: Dieses Fraunhofer Institut wird vom Bundesministerium für Inneres und Heimat finanziert.
+
+
+
+Frage 1 (f1)
+Wie würden Sie Ihre Einstellung gegenüber neuen digitalen Technologien im Allgemeinen beschreiben? Bitte benutzen Sie dafür eine Skala von 1 „Sehr positiv“, 2 „Eher positiv“, 3 „Eher negativ“ bis 4 „Sehr negativ“.
+1	Sehr positiv
+2	Eher positiv 
+3	Eher negativ 
+4 	Sehr negativ 
+5 	Weiß nicht / keine Angabe [INT: Nicht vorlesen]
+
+
+Im Mittelpunkt dieser Befragung stehen Geräte mit Sensoren im öffentlichen Raum. Hiermit sind Geräte mit Sensoren gemeint, die Daten bspw. auf öffentlichen Plätzen oder Straßen erheben und über das Internet übertragen. Denken Sie bei Geräten mit Sensoren bspw. an Verkehrssensoren, Umweltsensoren, Videokameras. 
+Wir möchten Ihnen nun einige Fragen zu verschiedenen Geräten mit Sensoren bspw. für Umwelt, Personen, Verkehr u. a. stellen.
+Wahrnehmung
+
+Zunächst haben wir Fragen zu Ihrer Wahrnehmung von Sensoren im öffentlichen Raum.
+
+
+Frage 2 (f2_question)
+Ich lese Ihnen nun einige Aussagen zu Sensoren im öffentlichen Raum vor. Welche davon treffen auf Sie zu?
+Mehrfachnennungen möglich
+
+-	Ich nehme Sensoren im öffentlichen Raum wahr. [INT: bspw. auf Wegen im Alltag] (f2A1)
+-	Ich kann mind. einen konkreten Ort benennen, an dem sich ein Sensor im öffentlichen Raum befindet. (f2A2)
+-	Ich nehme in den vergangenen ein / zwei Jahren mehr Sensoren im öffentlichen Raum wahr als davor. (f2A3)
+-	Nichts davon (f2A4)
+-	Weiß nicht/Keine Angabe [INT: Nicht vorlesen] (f2A5)
+
+
+Wissen
+
+
+Frage 3 (f3_question)
+Sensoren im öffentlichen Raum messen sehr unterschiedliche Dinge. Ich nenne Ihnen jetzt verschiedene Typen von Sensoren. Von einigen haben Sie möglicherweise noch nie gehört und das ist auch kein Problem. Bitte geben Sie an, welche Sensoren Sie kennen/Ihnen etwas sagen. 
+
+Mehrfachnennungen möglich
+
+-	Sensoren zur Messung von bewegten Objekten [INT: Bspw. Personen, Verkehr, Wildtiere..] (f3A1)
+-	Umweltsensoren [INT Bspw. Luftqualität, Temperatur, Pegelstände...] (f3A2)
+-	Sensoren zur Messung von Prozessen [INT bspw. In Strom-, Gas-, Wassernetzen; Mülltonnen...] (f3A3)
+-	Kameras zur Beobachtung des öffentlichen Raumes (f3A4)
+-	Keine davon (f3A5)
+-	Weiß nicht/Keine Angabe [INT: Nicht vorlesen] (f3A6)
+
+
+Frage 4 (f4_question)
+Im Folgenden interessieren wir uns für Ihr Verständnis über die Funktionsweise von Sensoren. Es geht nicht um richtig oder falsch, sondern einfach um Ihre Vorstellung davon. Ich lese Ihnen nun einige Aussagen vor. Welche davon treffen Ihrer Ansicht nach zu?
+Mehrfachnennungen möglich
+INT: Sollte diese Frage größeres Unbehagen erzeugen, bitte „ÜBERSPRINGEN“ markieren.
+
+-	Sensoren können Daten erfassen (f4A1)
+-	Sensoren sind jederzeit sichtbar (f4A2)
+-	Sensoren können Daten speichern (f4A3)
+-	Sensoren können Daten auf Plattformen oder in eine Cloud übertragen (f4A4)
+-	Daten von Sensoren können kombiniert und weiterverarbeitet werden (f4A5)
+-	Sensoren brauchen ein Kabel für Strom- oder Datenübertragung (f4A6)
+-	Sensordaten können zur automatischen Steuerung von Geräten benutzt werden (f4A7)
+-	Sensoren erfassen immer Daten, die als Person identifizierbar machen (f4A8)
+-	Keine davon (f4A9)
+-	Weiß nicht/Keine Angabe [INT: Nicht vorlesen] (f4A10)
+-	Überspringen  (f4A11)
+
+
+Befindlichkeit
+
+Frage 5 (f5)
+Sind Sensoren im öffentlichen Raum etwas, worüber Sie generell nachdenken?
+
+1 	Ja, häufig
+2	Ja, ab und zu
+3 	Eher wenig
+4	Nein, gar nicht
+5 	Weiß nicht / keine Angabe [INT: Nicht vorlesen]
+
+ 
+Wir möchten uns weiter einen Eindruck von Ihrer Meinung gegenüber Sensoren im öffentlichen Raum verschaffen.
+
+
+Frage 6 (f6_question)
+
+Ich lese Ihnen nun einige Aussagen vor. Bitte geben Sie an, ob diese auf Sie Ihrer Meinung nach zutreffen oder nicht. Bitte antworten Sie mit Hilfe einer Skala, bei der 1 bedeutet: „Trifft voll und ganz zu“, 2 „Trifft eher zu“, 3 „Trifft eher weniger zu“ und 4 „Trifft überhaupt nicht zu“.
+
+	Trifft 
+voll und ganz 
+zu	Trifft 
+eher
+zu	Trifft 
+eher weniger 
+zu	Trifft 
+überhaupt nicht 
+zu	Weiß nicht / keine Angabe
+Sensoren im öffentlichen Raum machen mich neugierig (f6A1)	1	2	3	4	9
+Durch Sensoren im öffentlichen Raum fühle ich mich sicher (sicherer als ohne) (f6A2)	1	2	3	4	9
+Sensoren im öffentlichen Raum erzeugen ein Überwachungsgefühl (f6A3)	1	2	3	4	9
+Sensoren im öffentlichen Raum finde ich fortschrittlich (f6A4)	1	2	3	4	9
+Sensoren im öffentlichen Raum lösen keine Probleme (f6A5)	1	2	3	4	9
+
+
+Frage 7 (f7)
+Wie beurteilen Sie die Anzahl der Geräte mit Sensoren im öffentlichen Raum? 
+Ich wünsche mir …
+1	mehr Sensoren im öffentlichen Raum
+2	weniger Sensoren im öffentlichen Raum
+3	weder noch
+4	Weiß nicht /keine Angabe [INT: nicht vorlesen]
+
+ 
+Frage 8 (f8_question)
+Welchen Einfluss hätten die folgenden Maßnahmen auf Ihre Zustimmung  zu Sensoren im öffentlichen Raum. Bitte antworten Sie mit Hilfe einer Skala, bei der 1 bedeutet: „Würde meine Zustimmung erhöhen“, 2 „Würde keinen Unterschied machen“, 3 „Würde meine Zustimmung verringern“.
+
+	Würde meine Zustimmung erhöhen	Würde keinen Unterschied machen	Würde meine Zustimmung verringern	Weiß nicht / keine Angabe
+Sichtbare Hinweisschilder auf dem Sensor vor Ort [INT: z.B. „Hier ist ein Sensor.“] (f8A1)	1	2	3	9
+Detaillierte Informationen zum Sensor / in der Nähe des Sensors 
+[INT auf Nachfrage: z.B. auf einer Infotafel oder in Form eines QR Codes] (f8A2)	1	2	3	9
+leicht auffindbare Informationen zum Sensor im Internet 
+[INT: z. B. auf Websiten der Kommunen] (f8A3)	1	2	3	9
+Regionale öffentliche Berichterstattung
+[INT: z. B. Zeitungen, Radio, Fernsehen] (f8A4)	1	2	3	9
+Informationen zur Funktionsweise des Sensors (f8A5)	1	2	3	9
+Informationen zur Nutzung der durch den Sensor erhobenen Daten (f8A6)	1	2	3	9
+Zeitliche Beschränkung 
+[INT: z. B. auf Nachtzeiten für Kameras in Parks] (f8A7)	1	2	3	9
+Markierungen, die ein Ausweichen ermöglichen/Wahlmöglichkeiten (f8A8)	1	2	3	9
+Information über den bisherigen Nutzen des Sensors / was er gebracht hat 
+[INT: z.B. Anzahl übermittelter Notsignale; Anzahl Müllleerungen außerhalb der regulären Frequenz] (f8A9)	1	2	3	9
+
+
+
+
+
+
+
+
+ 
+Filter: Nur die Sensoren einblenden, die laut Frage 3 bekannt sind (Code 1)
+Frage 9 (f9_question)
+Wir betrachten nun nochmals die zuvor genannten Sensoren nach den Gefühlen, die Sie damit verbinden. Ich nenne Ihnen nun jeweils wieder diese Typen von Sensoren im öffentlichen Raum. Bitte geben Sie an, welches Gefühl überwiegt? Bitte antworten Sie mit Hilfe einer Skala, bei der 1 bedeutet: „Sehr positiv“, 2 „Eher positiv“, 3 „Eher negativ“ und 4 „Sehr negativ“.
+
+	Sehr positiv	Eher positiv	Eher negativ	Sehr negativ	Weiß nicht / keine Angabe
+Sensoren zur Messung/Wahrnehmung von bewegten Objekten 
+[INT: z.B. Personen, Verkehr, Wildtiere] (f9A1)	1	2	3	4	9
+Umweltsensoren 
+[INT: z.B. Luftqualität, Temperatur, Pegelstände] (f9A2)	1	2	3	4	9
+Sensoren zur Messung/Nachverfolgung von Prozessen 
+[INT: z.B. in Strom-, Gas-, Wassernetzen, Mülltonnen...] (f9A3)	1	2	3	4	9
+Kameras zur Beobachtung des öffentlichen Raumes (f9A4)	1	2	3	4	9
+
+
+
+Vertrauen
+
+Frage 10 (f10_question)
+
+Durch Sensoren im öffentlichen Raum werden unter Umständen personenbezogene Daten [INT z.B. Standortdaten] erfasst. Ich lese Ihnen nun einige Aussagen vor. Welche davon treffen Ihrer Meinung nach zu?
+Mehrfachnennungen möglich
+
+-	Es ist mir wichtig, Kontrolle über die Freigabe mich betreffender Daten zu behalten. (f10A1)
+-	Ich habe nichts gegen eine Datennutzung, wenn diese anonymisiert erfolgt. (f10A2)
+-	Ich stimme einer Datennutzung zu, wenn mich betreffende Daten nur so nach statistischen Merkmalen [INT bspw. Alter, Geschlecht] verarbeitet werden, dass ich dabei nicht identifizierbar bin. (f10A3)
+-	Ich stimme einer Datennutzung zu, auch wenn ich dabei identifizierbar bin. (f10A4)
+-	Keine davon (f10A5)
+-	Weiß nicht/keine Angabe (f10A6)
+
+
+Frage 11 (f11)
+Gespeicherte Daten aus Sensoren werden sowohl von öffentlichen als auch von privaten Betreibern verarbeitet [INT: d.h., Daten werden gesammelt, gespeichert und ausgewertet]. Hat die Art des Betreibers einen Einfluss auf Ihr Vertrauen in die datenschutzkonforme Datenverarbeitung? 
+
+1	Ja		 weiter mit 11b
+2	Nein		 weiter mit 11c
+3	Weiß nicht  INT.: Bitte NICHT vorlesen	 weiter mit 11c 
+
+
+Filter: Nur, wenn Code 1 bei Frage 11:
+Frage 11b (f11b)
+Welche der folgenden Aussagen trifft am meisten auf Sie zu?
+Nur 1 Antwort möglich
+
+1	Ich vertraue nur privaten Betreibern
+2	Ich vertraue eher privaten Betreibern
+3	Ich vertraue eher öffentlichen Berteibern
+4	Ich vertraue nur öffentlichen Betreibern
+5	Weiß nicht  INT.: Bitte NICHT vorlesen
+
+Filter: Nur, wenn Code 2 bei Frage 11:
+Frage 11c (f11c)
+Welche der folgenden Aussagen trifft am meisten auf Sie zu?
+Nur 1 Antwort möglich
+
+1	Ich habe generelles Vertrauen in beide, öffentliche und private Betreiber
+2	Ich habe kein Vertrauen, weder in öffentliche noch in private Betreiber
+3	Weiß nicht  INT.: Bitte NICHT vorlesen
+
+Erwartungen und Anforderungen an Verwaltung/Kommunen/Betreiber
+
+Frage 12 (f12)
+Wer ist Ihrer Ansicht nach dafür hauptsächlich verantwortlich, über Sensoren im öffentlichen Raum zu informieren?
+
+1	Kommunen/Länder/Bund
+2	Unternehmen [INT Gerätehersteller, (Plattform-)Betreiber]
+3	Zivilgesellschaftliche Initiativen [INT bspw. Nachbarschaftsinitiativen]
+4	Weiß nicht  INT.: Bitte NICHT vorlesen
+
+Frage 13 (f13_question)
+Ich lese Ihnen nun einige Aussagen zu Sensoren im öffentlichen Raum vor. Bitte antworten Sie mit Hilfe einer Skala, bei der 1 bedeutet: „Trifft voll und ganz zu“, 2 „Trifft eher zu“, 3 „Trifft eher weniger zu“ und 4 „Trifft überhaupt nicht zu“.
+
+	Trifft 
+voll und ganz 
+zu	Trifft 
+eher
+zu	Trifft 
+eher weniger 
+zu	Trifft 
+überhaupt nicht 
+zu	Weiß nicht / keine Angabe
+Ich bin ausreichend informiert, wozu im öffentlichen Raum Sensoren genutzt werden (f13A1)	1	2	3	4	9
+Ich möchte mehr Informationen erhalten, welche mich betreffenden Daten durch Sensoren erhoben werden (f13A2)	1	2	3	4	9
+Mir ist nicht klar, wozu mich betreffende Daten aus Sensoren genutzt werden (f13A3)	1	2	3	4	9
+
+
+Nun kommen wir zu einem anderen Themenfeld, nämlich Sensoren am Körper.
+
+
+Frage 14 (f14)
+Verwenden Sie am Körper getragene Technik, wie Fitness-Tracker/Armbänder oder Smartwatches (sogenannte Wearables) oder eine Fitness-App, die Daten [INT bspw.  Herzfrequenz, Kalorienverbrauch, Routen] erfasst? (Ja/Nein)
+
+
+1	Ja		 weiter mit 14b
+2	Nein		 weiter mit 15
+3	Weiß nicht  INT.: Bitte NICHT vorlesen	 weiter mit 15
+
+
+Filter: Nur, wenn Code 1 bei Frage 14
+Frage 14b (f14b)
+Wenn Sie Wearables tragen, spielt für Sie eine Rolle, ob Ihre personenbezogenen Daten [INT: z.B. Herzfrequenz, Kalorienverbrauch, Routen] an den Hersteller oder Dritte weitergegeben werden?
+
+1	Ja	
+2	Nein
+3	Weiß nicht/ keine Angabe INT.: Bitte NICHT vorlesen	
+
+
+Frage 15 (f15)
+Nutzen Sie die Corona-Warn-App? 
+
+1	Ja	
+2	Nein
+3	Ich habe kein Smartphone
+4	Weiß nicht/ keine Angabe INT.: Bitte NICHT vorlesen	
+
+Filter: Nur, wenn NICHT Code 3 bei Frage 15
+
+Frage 16 (f16)
+Nutzen Sie die LUCA-App? 
+
+1	Ja	
+2	Nein	
+3	Weiß nicht/ keine Angabe INT.: Bitte NICHT vorlesen
+
+
+Fokus Videokameras
+
+Bislang haben wir über Sensoren allgemein gesprochen. Im folgenden Teil der Umfrage interessieren wir uns ausschließlich für Kameras im öffentlichen Raum.
+
+
+Frage 17 (f17)
+Sind Kameras im öffentlichen Raum etwas, worüber Sie generell nachdenken?
+
+1	Ja häufig
+2	Ja, ab und zu
+3	Eher wenig
+4	Nein gar nicht
+5	Weiß nicht/ keine Angabe INT.: Bitte NICHT vorlesen
+
+Frage 18 (f18)
+Was bedeutet für Sie mehr Videoüberwachung? 
+Nur 1 Antwort möglich
+
+1	Eher Sicherheit
+2	Eher Eingriff in Freiheitsrecht
+3	beides
+4	Weder noch /keines von beiden
+5	Weiß nicht/ keine Angabe INT.: Bitte NICHT vorlesen
+
+Frage 19 (f19_question)
+
+Ich lese Ihnen nun einige Aussagen vor. Bitte geben Sie an, ob diese für/auf Sie zutreffen oder nicht. Bitte antworten Sie mit Hilfe einer Skala, bei der 1 bedeutet: „Trifft voll und ganz zu“, 2 „Trifft eher zu“, 3 „Trifft weniger zu“ und 4 „Trifft überhaupt nicht zu“.
+
+	Trifft voll und ganz 
+zu	Trifft 
+eher
+zu	Trifft 
+weniger
+zu	Trifft 
+überhaupt nicht 
+zu	Weiß nicht / keine Angabe
+Es sollten mehr Kameras im öffentlichen Raum angebracht werden, um Gefahren besser abzuwenden (f19A1)	1	2	3	4	9
+Es ist bedenklich, dass intelligente Kamerasysteme mittlerweile die Aufenthaltsorte von Menschen automatisch verfolgen können (f19A2)	1	2	3	4	9
+Aufgrund von Kameras im öffentlichen Raum passe ich mein Verhalten an 
+[INT: vermeide z.B. bestimmte Wege] (f19A3)	1	2	3	4	9
+Mich unerkannt im öffentlichen Raum bewegen zu können, ist mir wichtiger als der potentielle Schutz durch Kameras (f19A4)	1	2	3	4	9
+Ich befürchte, aus Bilddaten werden häufig fragwürdige Schlüsse gezogen. 
+[INT: z.B. aus unscharfen Bildern wird auf konkrete Personen geschlossen.] (f19A5)	1	2	3	4	9
+Der Nutzen einer Videoüberwachung ist regelmäßig nachzuweisen (f19A6)	1	2	3	4	9
+
+
+
+Frage 20 (f20_question)
+Wo würden Sie einer Videoüberwachung zustimmen? Bitte antworten Sie mit Hilfe einer Skala, bei der 1 bedeutet: „Stimme uneingeschränkt zu“, 2 „Stimme nur eingeschränkt zu“ und 3 „Lehne es uneingeschränkt ab“.
+
+	Stimme uneingeschränkt zu	Stimme nur eingeschränkt zu	Lehne es uneingeschränkt ab	Weiß nicht / keine Angabe
+Vor Versorgungsunternehmen wie bspw. Stadtwerke, E-Werke (f20A1)	1	2	3	9
+Vor Gerichtsgebäude, Rathäuser, Bürgerämter (f20A2)	1	2	3	9
+BodyCams an Einsatzkräften 
+[INT: Polizist:innen, Feuerwehrleuten] (f20A3)	1	2	3	9
+Vor Schulen (f20A4)	1	2	3	9
+Im Verkehr/Kreuzungen (fließend, ruhend) (f20A5)	1	2	3	9
+An öffentliche Plätze und Parks (f20A6)	1	2	3	9
+Vor öffentlichen Toiletten/ vor Umkleidekabinen (f20A7)	1	2	3	9
+Im öffentlichen Nahverkehr und auf Bahnhöfen und Haltestellen (f20A8)	1	2	3	9
+Auf Marktplätzen/in Einkaufsstraßen/Einkaufszentren (f20A9)	1	2	3	9
+Vor einzelnstehenden Geschäften bzw. Gastronomie (f20A10)	1	2	3	9
+In Wohnstraßen/Wohnvierteln (f20A11)	1	2	3	9
+
+
+
+Frage 21 (f21_question)
+Im Folgenden geht es um Ziele, für die eine Videoüberwachung eingesetzt werden könnte. Für die Erreichung welcher Ziele akzeptieren Sie Videoüberwachung?
+Mehrfachnennungen möglich
+
+-	Müllvermeidung im öffentlichen Raum (f21A1)
+-	Schutz von Leib und Leben [INT bspw. durch unmittelbare Alarmierung von  Einsatzkräften] (f21A2)
+-	Vermeidung von Unfällen (f21A3)
+-	Schutz des Privateigentums (f21A4)
+-	Schutz des öffentlichen Eigentums (f21A5)
+-	Vermeidung von Kriminalität (f21A6)
+-	Erfassung von Verkehrsdelikten (f21A7)
+-	Strafverfolgung (f21A8)
+-	Verkehrssteuerung (f21A9)
+-	Fallen Sie Ihnen sonst noch Ziele ein, für die Sie eine Videoüberwachung akzeptieren würden: Sonstige: ….. [offene Frage] (f21A10) (Antwort in f21A13)
+-	Keine davon (f21A12)
+
+
+Frage 22 (f22)
+Bislang werden die aus Kameras im öffentlichen Raum gewonnenen Bilddaten in erster Linie von Kommunen und Unternehmen genutzt. Sollten Ihrer Ansicht nach diese Daten offen allen Bürgerinnen und Bürgern [INT: open data] zur Verfügung gestellt werden? 
+
+1	Ja, bin dafür
+2	Nein, bin dagegen
+3	Weiß nicht/ keine Angabe INT.: Bitte NICHT vorlesen
+
+Erwartungen an Bürger:innen
+
+Frage 23 (f23_question)
+Kameras im öffentlichen Raum zeichnen alle Vorbeigehenden auf, somit können auch von Ihnen Aufnahmen entstehen . Ich lese Ihnen nun einige Aussagen zu Kameras im öffentlichen Raum vor. Inwieweit treffen diese Aussagen auf Sie zu? Bitte antworten mit Hilfe einer Skala von 1 = Immer/oft, 2 = gelegentlich oder 3 = selten/nie.
+
+[INT Anweisung: Falls Belustigung/Unbehagen, bitte betonen, dass wir wirklich an Ihrer Einschätzung interessiert sind!]
+
+	Immer/oft	Gelegentlich	Selten/nie	Weiß nicht / keine Angabe
+Ich halte geltende Regeln besonders sorgfältig ein [INT denken Sie bspw. an rote Ampeln im Straßenverkehr] (f23A1)	1	2	3	9
+Ich setze Hilfsmittel ein, um auf Kameras im öffentlichen Raum nicht erkannt zu werden [INT: bspw. Kappe,; Brillengestelle; Maske; Bemalung u.a.] (f23A2)	1	2	3	9
+Ich passe meine Körperhaltung an, um auf Kameras nicht erkannt zu werden. (f23A3)	1	2	3	9
+Ich vermeide Orte oder Wege mit Videoüberwachung. (f23A4)	1	2	3	9
+
+
+Frage 24 (f24)
+Vielleicht haben Sie im Zusammenhang mit Videoüberwachung schon einmal nachgedacht, ob es negative Konsequenzen für unbescholtene Bürger:innen haben könnte?
+
+1	Ja	 WEITER MIT F24b
+2	Nein	 WEITER MIT F25
+3	Weiß nicht/ keine Angabe INT.: Bitte NICHT vorlesen
+
+
+
+Frage 24b (f24b¬_question)
+Ich nenne Ihnen nun verschiedene Lebensbereiche. Bitte geben Sie an, in welchen Bereichen Sie von Konsequenzen für einzelne Personen durch die Verwertung von Videoüberwachung ausgehen. 
+Mehrfachnennungen möglich
+
+-	Im Berufsleben [INT hier auch Ausbildung gemeint] (f24bA1)
+-	Im öffentlichen Leben [INT in der Nachbarschaft, in der Gemeinde, Vereinen, Social Media] (f24bA2)
+-	Im Privatleben (f24bA3)
+-	Sonstige Lebensbereiche [Offene Frage] (f24bA4)
+-	In keinen davon (f24bA5)
+-	Weiß nicht/ keine Angabe INT.: Bitte NICHT vorlesen (f24bA6)
+-	Antwort auf Offene Frage (f24bA7)
+
+
+Frage 25 (f25)
+
+Zum Abschluss nochmal eine persönliche Frage: 
+Waren Sie im öffentlichen Raum schon einmal in einer Situation, in der  eine Videoüberwachung hilfreich gewesen wäre?
+
+1	Ja	
+2	Nein
+3	Weiß nicht/ keine Angabe INT.: Bitte NICHT vorlesen	
+
+
+
+Frage S1 (S1)
+
+Geschlecht des Befragten
+1 	männlich
+2	weiblich
+
+Frage S2 (S2A1)
+[aus Datenschutzgründen gelöscht]
+
+
+Frage S2 (S2neu)
+Person gehört zur Altersgruppe
+
+1	16-19
+2	20-29
+3	30-39
+4	40-49
+5	50-59
+6	60-69
+7	70 und älter
+
+Frage S3 (s3A1)
+Wie viele Personen insgesamt, Sie selbst eingeschlossen, leben ständig in Ihrem Haushalt?
+
+
+Frage S4 (s4A1)
+Wie viele Personen davon, Sie selbst mit eingerechnet, sind 16 Jahre und älter?
+-
+
+Frage S5 (s5)
+Welchen Schulabschluss haben Sie? Ich lese Ihnen zunächst alle Antwortmöglichkeiten vor. Sagen Sie mir dann, was auf Sie zutrifft.
+1	ohne Schulabschluss
+2	Volks- oder Hauptschule ohne Lehre
+3	Volks- oder Hauptschule mit Lehre
+4	Mittlere Reife oder Abschluß der polytechnischen Oberschule
+5	Abitur, Fachhochschulreife (Gymnasien/erweiterte Oberschule EOS)
+6	Fachhochschul-/ Universitätsstudium
+7	Keine Angabe / verweigert 
+
+Frage S6  (s6)
+Welche der folgenden Tätigkeiten führen Sie derzeit aus?
+
+1	Berufstätig in Vollzeit
+2	Berufstätig in Teilzeit
+3	Auszubildende/r 
+4	Arbeitslos 
+5	Rentner, Pensionär    
+6	Schüler 
+7	Fachschüler 
+8	Student  
+9	Hausfrau/-mann / Elternzeit 
+10	Bundesfreiwilligendienst / FSJ / FÖJ
+11	Sonstiges
+12	Keine Angabe      
+
+
+Frage S6b (s6b)
+Sagen Sie mir doch bitte, welche der folgenden Berufsgruppen am ehesten auf die Tätigkeit, die Sie überwiegend ausüben, zutrifft.
+1 Arbeiter(in)
+2 Facharbeiter(in)
+3 Angestellte(r)
+4 Leitende(r) Angestellte(r)
+5 Beamte(r) bis mittlerer Dienst
+6 Beamte(r) ab gehobenem Dienst
+7 Freiberufler
+8 Selbständige(r) 
+9 Landwirt(in)
+10 Keine Angabe
+
+
+Frage S7 (s7)
+Wie hoch ist etwa das Ihnen zur Verfügung stehende monatliche Haushaltsnettoeinkommen – also Gehälter und andere Einnahmen nach Abzug von Steuern und Sozialversicherungsbeiträgen?
+1	Bis unter 500 Euro
+2	500 bis unter 1.000 Euro
+3	1.000 bis unter 1.500 Euro
+4	1.500 bis unter 2.000 Euro
+5	2.000 bis unter 3.000 Euro
+6	3.000 bis unter 4.000 Euro
+7	4.000 Euro und mehr 
+8	Keine Angabe
+
+

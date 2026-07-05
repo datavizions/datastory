@@ -1,0 +1,67 @@
+{
+  "story": {
+    "bg": {
+      "value": "#0d1b2a"
+    },
+    "surface": {
+      "value": "#122030"
+    },
+    "on-bg": {
+      "value": "#ffffff"
+    },
+    "accent-wissen": {
+      "value": "#2DD4BF"
+    },
+    "accent-vertrauen": {
+      "value": "#E07B39"
+    },
+    "accent-kameras": {
+      "value": "#9B7FD4"
+    },
+    "accent-perspektive": {
+      "value": "#F5C842"
+    },
+    "accent-vertrauen-2": {
+      "value": "#c75e1f"
+    },
+    "accent-vertrauen-3": {
+      "value": "#a04a18"
+    },
+    "accent-vertrauen-4": {
+      "value": "#7a3811"
+    },
+    "accent-vertrauen-5": {
+      "value": "#4a2409"
+    },
+    "accent-kameras-2": {
+      "value": "#7a5fb5"
+    },
+    "accent-kameras-3": {
+      "value": "#5e4490"
+    },
+    "accent-kameras-4": {
+      "value": "#432e6b"
+    },
+    "accent-kameras-5": {
+      "value": "#2c1d48"
+    },
+    "accent-perspektive-2": {
+      "value": "#c4a030"
+    },
+    "accent-perspektive-3": {
+      "value": "#8a6f1e"
+    },
+    "accent-perspektive-4": {
+      "value": "#4a3a08"
+    },
+    "accent-perspektive-5": {
+      "value": "#2a2005"
+    },
+    "accent-persona-2": {
+      "value": "#7a6010"
+    },
+    "accent-personas": {
+      "value": "#e6edf3"
+    }
+  }
+}

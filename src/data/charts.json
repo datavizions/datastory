@@ -1,0 +1,829 @@
+{
+  "wahrnehmung": {
+    "type": "bar",
+    "title": "Wahrnehmung von Sensoren im öffentlichen Raum",
+    "note": "Mehrfachnennung möglich",
+    "n": 968,
+    "items": [
+      {
+        "code": "f2A1",
+        "label": "-\tIch nehme Sensoren im öffentlichen Raum wahr.",
+        "count": 415,
+        "percent": 42
+      },
+      {
+        "code": "f2A2",
+        "label": "-\tIch kann mind. einen konkreten Ort benennen, an dem sich ein Sensor im öffentlichen Raum befindet.",
+        "count": 493,
+        "percent": 50
+      },
+      {
+        "code": "f2A3",
+        "label": "-\tIch nehme in den vergangenen ein / zwei Jahren mehr Sensoren im öffentlichen Raum wahr als davor.",
+        "count": 202,
+        "percent": 22
+      },
+      {
+        "code": "f2A5",
+        "label": "-\tWeiß nicht/Keine Angabe",
+        "count": 36,
+        "percent": 3
+      }
+    ]
+  },
+  "sensortypen": {
+    "type": "bar",
+    "title": "Bekanntheitsgrad nach Sensortyp",
+    "note": "Mehrfachnennung möglich",
+    "n": 989,
+    "items": [
+      {
+        "code": "f3A1",
+        "label": "-\tSensoren zur Messung von bewegten Objekten",
+        "count": 699,
+        "percent": 70
+      },
+      {
+        "code": "f3A2",
+        "label": "-\tUmweltsensoren",
+        "count": 798,
+        "percent": 81
+      },
+      {
+        "code": "f3A3",
+        "label": "-\tSensoren zur Messung von Prozessen",
+        "count": 422,
+        "percent": 43
+      },
+      {
+        "code": "f3A4",
+        "label": "-\tKameras zur Beobachtung des öffentlichen Raumes",
+        "count": 912,
+        "percent": 92
+      },
+      {
+        "code": "f3A5",
+        "label": "-\tKeine davon",
+        "count": 0,
+        "percent": 0
+      },
+      {
+        "code": "f3A6",
+        "label": "-\tWeiß nicht/Keine Angabe",
+        "count": 15,
+        "percent": 2
+      }
+    ]
+  },
+  "wissensensoren": {
+    "type": "bar",
+    "title": "Wissen über die Funtionsweise von Sensoren",
+    "note": "Mehrfachnennung möglich",
+    "n": 978,
+    "items": [
+      {
+        "code": "f4A1",
+        "label": "-\tSensoren können Daten erfassen",
+        "count": 747,
+        "percent": 75
+      },
+      {
+        "code": "f4A2",
+        "label": "-\tSensoren sind jederzeit sichtbar",
+        "count": 96,
+        "percent": 10
+      },
+      {
+        "code": "f4A3",
+        "label": "-\tSensoren können Daten speichern",
+        "count": 716,
+        "percent": 74
+      },
+      {
+        "code": "f4A5",
+        "label": "-\tDaten von Sensoren können kombiniert und weiterverarbeitet werden",
+        "count": 679,
+        "percent": 69
+      },
+      {
+        "code": "f4A6",
+        "label": "-\tSensoren brauchen ein Kabel für Strom- oder Datenübertragung",
+        "count": 211,
+        "percent": 20
+      },
+      {
+        "code": "f4A7",
+        "label": "-\tSensordaten können zur automatischen Steuerung von Geräten benutzt werden",
+        "count": 624,
+        "percent": 64
+      },
+      {
+        "code": "f4A8",
+        "label": "-\tSensoren erfassen immer Daten, die als Person identifizierbar machen",
+        "count": 168,
+        "percent": 17
+      },
+      {
+        "code": "f4A9",
+        "label": "-\tKeine davon",
+        "count": 1,
+        "percent": 0
+      },
+      {
+        "code": "f4A10",
+        "label": "-\tWeiß nicht/Keine Angabe",
+        "count": 26,
+        "percent": 2
+      }
+    ]
+  },
+  "einstellungtechnik": {
+    "type": "bar",
+    "title": "Einstellung zu digitalen Technologien",
+    "note": "Mehrfachnennung möglich",
+    "n": 1004,
+    "items": [
+      {
+        "label": "Sehr positiv",
+        "count": 342,
+        "percent": 35
+      },
+      {
+        "label": "Eher positiv",
+        "count": 499,
+        "percent": 50
+      },
+      {
+        "label": "Eher negativ",
+        "count": 94,
+        "percent": 9
+      },
+      {
+        "label": "Sehr negativ",
+        "count": 42,
+        "percent": 4
+      },
+      {
+        "label": "5",
+        "count": 27,
+        "percent": 2
+      }
+    ]
+  },
+  "überwachungsgefühl": {
+    "type": "distribution",
+    "title": "Überwachungsgefühl durch Sensoren",
+    "description": "Anteil: trifft voll zu + trifft eher zu",
+    "percent": 49,
+    "n": 963
+  },
+  "befindlichkeit": {
+    "type": "bargrouped",
+    "title": "Gefühl gegenüber Sensoren im öffentlichen Raum",
+    "n": 963,
+    "answerLabels": {
+      "1": "Trifft voll und ganz zu",
+      "2": "Trifft eher zu",
+      "3": "Trifft eher weniger zu",
+      "4": "Triff überhaupt nicht zu",
+      "9": "Weiß nicht/Keine Angabe"
+    },
+    "items": [
+      {
+        "code": "f6A1_1",
+        "label": "Sensoren im öffentlichen Raum machen mich neugierig",
+        "distribution": [
+          {
+            "answer": "2",
+            "label": "Trifft eher zu",
+            "count": 347,
+            "percent": 36
+          },
+          {
+            "answer": "4",
+            "label": "Triff überhaupt nicht zu",
+            "count": 269,
+            "percent": 28
+          },
+          {
+            "answer": "3",
+            "label": "Trifft eher weniger zu",
+            "count": 252,
+            "percent": 26
+          },
+          {
+            "answer": "1",
+            "label": "Trifft voll und ganz zu",
+            "count": 96,
+            "percent": 10
+          }
+        ]
+      },
+      {
+        "code": "f6A2_1",
+        "label": "Durch Sensoren im öffentlichen Raum fühle ich mich sicher (sicherer als ohne)",
+        "distribution": [
+          {
+            "answer": "2",
+            "label": "Trifft eher zu",
+            "count": 451,
+            "percent": 46
+          },
+          {
+            "answer": "1",
+            "label": "Trifft voll und ganz zu",
+            "count": 200,
+            "percent": 22
+          },
+          {
+            "answer": "3",
+            "label": "Trifft eher weniger zu",
+            "count": 189,
+            "percent": 18
+          },
+          {
+            "answer": "4",
+            "label": "Triff überhaupt nicht zu",
+            "count": 133,
+            "percent": 14
+          }
+        ]
+      },
+      {
+        "code": "f6A3_1",
+        "label": "Sensoren im öffentlichen Raum erzeugen ein Überwachungsgefühl",
+        "distribution": [
+          {
+            "answer": "3",
+            "label": "Trifft eher weniger zu",
+            "count": 324,
+            "percent": 34
+          },
+          {
+            "answer": "2",
+            "label": "Trifft eher zu",
+            "count": 266,
+            "percent": 27
+          },
+          {
+            "answer": "1",
+            "label": "Trifft voll und ganz zu",
+            "count": 213,
+            "percent": 22
+          },
+          {
+            "answer": "4",
+            "label": "Triff überhaupt nicht zu",
+            "count": 160,
+            "percent": 17
+          }
+        ]
+      },
+      {
+        "code": "f6A4_1",
+        "label": "Sensoren im öffentlichen Raum finde ich fortschrittlich",
+        "distribution": [
+          {
+            "answer": "1",
+            "label": "Trifft voll und ganz zu",
+            "count": 357,
+            "percent": 39
+          },
+          {
+            "answer": "2",
+            "label": "Trifft eher zu",
+            "count": 348,
+            "percent": 38
+          },
+          {
+            "answer": "3",
+            "label": "Trifft eher weniger zu",
+            "count": 194,
+            "percent": 18
+          },
+          {
+            "answer": "4",
+            "label": "Triff überhaupt nicht zu",
+            "count": 56,
+            "percent": 5
+          }
+        ]
+      },
+      {
+        "code": "f6A5_1",
+        "label": "Sensoren im öffentlichen Raum lösen keine Probleme",
+        "distribution": [
+          {
+            "answer": "2",
+            "label": "Trifft eher zu",
+            "count": 270,
+            "percent": 30
+          },
+          {
+            "answer": "3",
+            "label": "Trifft eher weniger zu",
+            "count": 251,
+            "percent": 24
+          },
+          {
+            "answer": "4",
+            "label": "Triff überhaupt nicht zu",
+            "count": 243,
+            "percent": 25
+          },
+          {
+            "answer": "1",
+            "label": "Trifft voll und ganz zu",
+            "count": 211,
+            "percent": 21
+          }
+        ]
+      }
+    ]
+  },
+  "akzeptanzmaßnahmen": {
+    "type": "bargrouped",
+    "title": "Einfluss von Maßnahmen auf Zustimmung zu Sensoren",
+    "answerLabels": {
+      "1": "Erhöht Zustimmung",
+      "2": "Kein Unterschied",
+      "3": "Verringert Zustimmung",
+      "4": "Weiß nicht / Keine Angabe"
+    },
+    "n": 1004,
+    "items": [
+      {
+        "code": "f8A1_1",
+        "label": "Sichtbare Hinweisschilder auf dem Sensor vor Ort",
+        "distribution": [
+          {
+            "answer": "1",
+            "label": "Erhöht Zustimmung",
+            "count": 531,
+            "percent": 53
+          },
+          {
+            "answer": "2",
+            "label": "Kein Unterschied",
+            "count": 363,
+            "percent": 37
+          },
+          {
+            "answer": "3",
+            "label": "Verringert Zustimmung",
+            "count": 87,
+            "percent": 8
+          },
+          {
+            "answer": "9",
+            "label": "9",
+            "count": 23,
+            "percent": 2
+          }
+        ]
+      },
+      {
+        "code": "f8A2_1",
+        "label": "Detaillierte Informationen zum Sensor / in der Nähe des Sensors",
+        "distribution": [
+          {
+            "answer": "1",
+            "label": "Erhöht Zustimmung",
+            "count": 579,
+            "percent": 58
+          },
+          {
+            "answer": "2",
+            "label": "Kein Unterschied",
+            "count": 376,
+            "percent": 36
+          },
+          {
+            "answer": "9",
+            "label": "9",
+            "count": 26,
+            "percent": 3
+          },
+          {
+            "answer": "3",
+            "label": "Verringert Zustimmung",
+            "count": 23,
+            "percent": 2
+          }
+        ]
+      },
+      {
+        "code": "f8A3_1",
+        "label": "leicht auffindbare Informationen zum Sensor im Internet",
+        "distribution": [
+          {
+            "answer": "1",
+            "label": "Erhöht Zustimmung",
+            "count": 511,
+            "percent": 49
+          },
+          {
+            "answer": "2",
+            "label": "Kein Unterschied",
+            "count": 301,
+            "percent": 31
+          },
+          {
+            "answer": "3",
+            "label": "Verringert Zustimmung",
+            "count": 154,
+            "percent": 16
+          },
+          {
+            "answer": "9",
+            "label": "9",
+            "count": 38,
+            "percent": 3
+          }
+        ]
+      },
+      {
+        "code": "f8A4_1",
+        "label": "Regionale öffentliche Berichterstattung",
+        "distribution": [
+          {
+            "answer": "1",
+            "label": "Erhöht Zustimmung",
+            "count": 486,
+            "percent": 49
+          },
+          {
+            "answer": "2",
+            "label": "Kein Unterschied",
+            "count": 457,
+            "percent": 45
+          },
+          {
+            "answer": "3",
+            "label": "Verringert Zustimmung",
+            "count": 43,
+            "percent": 4
+          },
+          {
+            "answer": "9",
+            "label": "9",
+            "count": 18,
+            "percent": 2
+          }
+        ]
+      },
+      {
+        "code": "f8A5_1",
+        "label": "Informationen zur Funktionsweise des Sensors",
+        "distribution": [
+          {
+            "answer": "1",
+            "label": "Erhöht Zustimmung",
+            "count": 534,
+            "percent": 53
+          },
+          {
+            "answer": "2",
+            "label": "Kein Unterschied",
+            "count": 356,
+            "percent": 34
+          },
+          {
+            "answer": "3",
+            "label": "Verringert Zustimmung",
+            "count": 84,
+            "percent": 9
+          },
+          {
+            "answer": "9",
+            "label": "9",
+            "count": 30,
+            "percent": 3
+          }
+        ]
+      },
+      {
+        "code": "f8A6_1",
+        "label": "Informationen zur Nutzung der durch den Sensor erhobenen Daten",
+        "distribution": [
+          {
+            "answer": "1",
+            "label": "Erhöht Zustimmung",
+            "count": 659,
+            "percent": 64
+          },
+          {
+            "answer": "2",
+            "label": "Kein Unterschied",
+            "count": 270,
+            "percent": 28
+          },
+          {
+            "answer": "3",
+            "label": "Verringert Zustimmung",
+            "count": 58,
+            "percent": 6
+          },
+          {
+            "answer": "9",
+            "label": "9",
+            "count": 17,
+            "percent": 2
+          }
+        ]
+      },
+      {
+        "code": "f8A7_1",
+        "label": "Zeitliche Beschränkung",
+        "distribution": [
+          {
+            "answer": "1",
+            "label": "Erhöht Zustimmung",
+            "count": 472,
+            "percent": 47
+          },
+          {
+            "answer": "2",
+            "label": "Kein Unterschied",
+            "count": 395,
+            "percent": 41
+          },
+          {
+            "answer": "3",
+            "label": "Verringert Zustimmung",
+            "count": 98,
+            "percent": 9
+          },
+          {
+            "answer": "9",
+            "label": "9",
+            "count": 39,
+            "percent": 3
+          }
+        ]
+      },
+      {
+        "code": "f8A8_1",
+        "label": "Markierungen, die ein Ausweichen ermöglichen/Wahlmöglichkeiten",
+        "distribution": [
+          {
+            "answer": "2",
+            "label": "Kein Unterschied",
+            "count": 520,
+            "percent": 53
+          },
+          {
+            "answer": "1",
+            "label": "Erhöht Zustimmung",
+            "count": 308,
+            "percent": 31
+          },
+          {
+            "answer": "3",
+            "label": "Verringert Zustimmung",
+            "count": 118,
+            "percent": 12
+          },
+          {
+            "answer": "9",
+            "label": "9",
+            "count": 58,
+            "percent": 5
+          }
+        ]
+      },
+      {
+        "code": "f8A9_1",
+        "label": "Information über den bisherigen Nutzen des Sensors / was er gebracht hat",
+        "distribution": [
+          {
+            "answer": "2",
+            "label": "Kein Unterschied",
+            "count": 464,
+            "percent": 47
+          },
+          {
+            "answer": "1",
+            "label": "Erhöht Zustimmung",
+            "count": 463,
+            "percent": 46
+          },
+          {
+            "answer": "3",
+            "label": "Verringert Zustimmung",
+            "count": 58,
+            "percent": 6
+          },
+          {
+            "answer": "9",
+            "label": "9",
+            "count": 19,
+            "percent": 2
+          }
+        ]
+      }
+    ]
+  },
+  "datenschutzhaltung": {
+    "type": "bar",
+    "title": "Haltung zu Datenschutz und Datennutzung",
+    "note": "Mehrfachnennung möglich",
+    "n": 985,
+    "items": [
+      {
+        "code": "f10A1",
+        "label": "-\tEs ist mir wichtig, Kontrolle über die Freigabe mich betreffender Daten zu behalten.",
+        "count": 812,
+        "percent": 81
+      },
+      {
+        "code": "f10A2",
+        "label": "-\tIch habe nichts gegen eine Datennutzung, wenn diese anonymisiert erfolgt.",
+        "count": 538,
+        "percent": 55
+      },
+      {
+        "code": "f10A3",
+        "label": "-\tIch stimme einer Datennutzung zu, wenn mich betreffende Daten nur so nach statistischen Merkmalen  verarbeitet werden, dass ich dabei nicht identifizierbar bin.",
+        "count": 425,
+        "percent": 44
+      },
+      {
+        "code": "f10A5",
+        "label": "-\tKeine davon",
+        "count": 2,
+        "percent": 0
+      },
+      {
+        "code": "f10A6",
+        "label": "-\tWeiß nicht/keine Angabe",
+        "count": 17,
+        "percent": 2
+      }
+    ]
+  },
+  "vertrauenbetreiber": {
+    "type": "distribution",
+    "title": "Vertrauen in öffentliche vs private Betreiber",
+    "note": "72 % der Befragten äußerten sich zu dieser Frage (f11 = 1).",
+    "description": "Anteil: trifft voll zu + trifft eher zu",
+    "n": 1004,
+    "items": [
+      {
+        "answer": "1",
+        "label": "Nur privaten Betreibern",
+        "count": 715,
+        "percent": 72
+      },
+      {
+        "answer": "2",
+        "label": "Eher privaten Betreibern",
+        "count": 228,
+        "percent": 22
+      },
+      {
+        "answer": "3",
+        "label": "Eher öffentlichen Betreibern",
+        "count": 61,
+        "percent": 6
+      }
+    ]
+  },
+  "infobedürfnis": {
+    "type": "stat",
+    "title": "Wunsch nach mehr Informationen zur Datenerhebung",
+    "description": "Anteil trifft voll zu + trifft eher zu",
+    "percent": 88,
+    "n": 974
+  },
+  "kamerabedeutung": {
+    "type": "distribution",
+    "title": "Was bedeutet mehr Videoüberwachung",
+    "n": 1004,
+    "items": [
+      {
+        "answer": "1",
+        "label": "Eher Sicherheit",
+        "count": 413,
+        "percent": 42
+      },
+      {
+        "answer": "3",
+        "label": "Beides",
+        "count": 342,
+        "percent": 35
+      },
+      {
+        "answer": "2",
+        "label": "Eher Eingriff in Freiheitsrecht",
+        "count": 128,
+        "percent": 12
+      },
+      {
+        "answer": "4",
+        "label": "Weder noch",
+        "count": 107,
+        "percent": 10
+      },
+      {
+        "answer": "5",
+        "label": "Weiß nicht",
+        "count": 14,
+        "percent": 1
+      }
+    ]
+  },
+  "kamerazustimmungort": {
+    "type": "bar",
+    "title": "Zustimmung zu Videoüberwachung je nach Ort",
+    "answerLabels": {
+      "1": "Stimme uneingeschränkt zu",
+      "2": "Stimmer eingeschränkt zu",
+      "3": "Lehne es uneingeschränkt ab",
+      "4": "Weißß nicht / Keine Angabe"
+    },
+    "n": 1004,
+    "items": [
+      {
+        "code": "f20A1_1",
+        "label": "Vor Versorgungsunternehmen wie bspw. Stadtwerke, E-Werke",
+        "count": 855,
+        "percent": 85
+      },
+      {
+        "code": "f20A2_1",
+        "label": "Vor Gerichtsgebäude, Rathäuser, Bürgerämter",
+        "count": 882,
+        "percent": 89
+      },
+      {
+        "code": "f20A3_1",
+        "label": "BodyCams an Einsatzkräften",
+        "count": 909,
+        "percent": 90
+      },
+      {
+        "code": "f20A4_1",
+        "label": "Vor Schulen",
+        "count": 871,
+        "percent": 87
+      },
+      {
+        "code": "f20A5_1",
+        "label": "Im Verkehr/Kreuzungen (fließend, ruhend)",
+        "count": 847,
+        "percent": 85
+      },
+      {
+        "code": "f20A6_1",
+        "label": "An öffentliche Plätze und Parks",
+        "count": 887,
+        "percent": 88
+      },
+      {
+        "code": "f20A7_1",
+        "label": "Vor öffentlichen Toiletten/ vor Umkleidekabinen",
+        "count": 654,
+        "percent": 65
+      },
+      {
+        "code": "f20A8_1",
+        "label": "Im öffentlichen Nahverkehr und auf Bahnhöfen und Haltestellen",
+        "count": 933,
+        "percent": 93
+      },
+      {
+        "code": "f20A9_1",
+        "label": "Auf Marktplätzen/in Einkaufsstraßen/Einkaufszentren",
+        "count": 797,
+        "percent": 78
+      },
+      {
+        "code": "f20A10_1",
+        "label": "Vor einzelnstehenden Geschäften bzw. Gastronomie",
+        "count": 710,
+        "percent": 71
+      },
+      {
+        "code": "f20A11_1",
+        "label": "In Wohnstraßen/Wohnvierteln",
+        "count": 571,
+        "percent": 56
+      }
+    ]
+  },
+  "kamerabedenken": {
+    "type": "stat",
+    "title": "Bedenklichkeit intelligenter Kamerasysteme",
+    "description": "Anteil trifft voll zu + trifft eher zu",
+    "percent": 69,
+    "n": 974
+  },
+  "verhaltensanpassung": {
+    "type": "stat",
+    "title": "Meiden Orte mit Videoüberwachung",
+    "description": "Anteil immer/oft + gelegentlich",
+    "percent": 19,
+    "n": 971
+  }
+}

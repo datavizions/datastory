@@ -1,0 +1,28 @@
+{
+	"color": {
+		"black": {
+			"value": "#111827"
+		},
+		"white": {
+			"value": "#fdfdfd"
+		},
+		"gray-50": {
+			"value": "#f5f7fa"
+		},
+		"gray-200": {
+			"value": "#dbe2ea"
+		},
+		"gray-300": {
+			"value": "#c3ccd7"
+		},
+		"gray-500": {
+			"value": "#6b7280"
+		},
+		"gray-900": {
+			"value": "#1f2937"
+		},
+		"yellow": {
+			"value": "#f3d46b"
+		}
+	}
+}

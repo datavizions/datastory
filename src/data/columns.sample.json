@@ -1,0 +1,4372 @@
+{
+  "Fall": {
+    "label": "Fall",
+    "category": "Unbekannt",
+    "description": null,
+    "values": [
+      "1000",
+      "1001",
+      "1002",
+      "1003",
+      "1004",
+      "1005",
+      "1006",
+      "1007",
+      "1008",
+      "1009",
+      "1010"
+    ],
+    "answers": [
+      {
+        "answer": "1000",
+        "count": 1,
+        "weightedCount": 0.85925666
+      },
+      {
+        "answer": "1001",
+        "count": 1,
+        "weightedCount": 0.68166546
+      },
+      {
+        "answer": "1002",
+        "count": 1,
+        "weightedCount": 0.54639622
+      },
+      {
+        "answer": "1003",
+        "count": 1,
+        "weightedCount": 0.93732072
+      },
+      {
+        "answer": "1004",
+        "count": 1,
+        "weightedCount": 0.93598582
+      },
+      {
+        "answer": "1005",
+        "count": 1,
+        "weightedCount": 1.08098289
+      },
+      {
+        "answer": "1006",
+        "count": 1,
+        "weightedCount": 0.47760649
+      },
+      {
+        "answer": "1007",
+        "count": 1,
+        "weightedCount": 0.80159141
+      },
+      {
+        "answer": "1008",
+        "count": 1,
+        "weightedCount": 1.15767645
+      },
+      {
+        "answer": "1009",
+        "count": 1,
+        "weightedCount": 1.16858289
+      },
+      {
+        "answer": "1010",
+        "count": 1,
+        "weightedCount": 0.88284507
+      }
+    ]
+  },
+  "Gewicht": {
+    "label": "Gewicht",
+    "category": "Unbekannt",
+    "description": null,
+    "values": [
+      0.85925666,
+      0.68166546,
+      0.54639622,
+      0.93732072,
+      0.93598582,
+      1.08098289,
+      0.47760649,
+      0.80159141,
+      1.15767645,
+      1.16858289,
+      0.88284507
+    ],
+    "answers": [
+      {
+        "answer": "0.85925666",
+        "count": 1,
+        "weightedCount": 0.85925666
+      },
+      {
+        "answer": "0.68166546",
+        "count": 1,
+        "weightedCount": 0.68166546
+      },
+      {
+        "answer": "0.54639622",
+        "count": 1,
+        "weightedCount": 0.54639622
+      },
+      {
+        "answer": "0.93732072",
+        "count": 1,
+        "weightedCount": 0.93732072
+      },
+      {
+        "answer": "0.93598582",
+        "count": 1,
+        "weightedCount": 0.93598582
+      },
+      {
+        "answer": "1.08098289",
+        "count": 1,
+        "weightedCount": 1.08098289
+      },
+      {
+        "answer": "0.47760649",
+        "count": 1,
+        "weightedCount": 0.47760649
+      },
+      {
+        "answer": "0.80159141",
+        "count": 1,
+        "weightedCount": 0.80159141
+      },
+      {
+        "answer": "1.15767645",
+        "count": 1,
+        "weightedCount": 1.15767645
+      },
+      {
+        "answer": "1.16858289",
+        "count": 1,
+        "weightedCount": 1.16858289
+      },
+      {
+        "answer": "0.88284507",
+        "count": 1,
+        "weightedCount": 0.88284507
+      }
+    ]
+  },
+  "Erreichbarkeit": {
+    "label": "Erreichbarkeit",
+    "category": "Unbekannt",
+    "description": null,
+    "values": [
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht"
+    ],
+    "answers": [
+      {
+        "answer": "aus Datenschutzgr�nden gel�scht",
+        "count": 11,
+        "weightedCount": 9.529910080000002
+      }
+    ]
+  },
+  "STICH": {
+    "label": "STICH",
+    "category": "Unbekannt",
+    "description": null,
+    "values": [
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 8,
+        "weightedCount": 6.9320859000000015
+      },
+      {
+        "answer": "2",
+        "count": 3,
+        "weightedCount": 2.59782418
+      }
+    ]
+  },
+  "f1": {
+    "label": "Frage 1",
+    "category": "Einstellung zu Technik",
+    "description": "Wie würden Sie Ihre Einstellung gegenüber neuen digitalen Technologien im Allgemeinen beschreiben? Bitte benutzen Sie dafür eine Skala von 1 „Sehr positiv“, 2 „Eher positiv“, 3 „Eher negativ“ bis 4 „Sehr negativ“.",
+    "values": [
+      "1",
+      "5",
+      "2",
+      "2",
+      "4",
+      "2",
+      "1",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 2,
+        "weightedCount": 1.3368631500000001
+      },
+      {
+        "answer": "2",
+        "count": 7,
+        "weightedCount": 6.57539565
+      },
+      {
+        "answer": "4",
+        "count": 1,
+        "weightedCount": 0.93598582
+      },
+      {
+        "answer": "5",
+        "count": 1,
+        "weightedCount": 0.68166546
+      }
+    ]
+  },
+  "f2_question": {
+    "label": "Frage 2",
+    "category": "Wissen",
+    "description": "Ich lese Ihnen nun einige Aussagen zu Sensoren im öffentlichen Raum vor. Welche davon treffen auf Sie zu?",
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "answers": []
+  },
+  "f2A1": {
+    "label": "-\tIch nehme Sensoren im öffentlichen Raum wahr.",
+    "category": "Wissen",
+    "description": "-\tIch kann mind. einen konkreten Ort benennen, an dem sich ein Sensor im öffentlichen Raum befindet. (f2A2)",
+    "values": [
+      "1",
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 6,
+        "weightedCount": 5.79640236
+      },
+      {
+        "answer": "1",
+        "count": 5,
+        "weightedCount": 3.7335077199999995
+      }
+    ]
+  },
+  "f2A2": {
+    "label": "-\tIch kann mind. einen konkreten Ort benennen, an dem sich ein Sensor im öffentlichen Raum befindet.",
+    "category": "Wissen",
+    "description": "-\tIch nehme in den vergangenen ein / zwei Jahren mehr Sensoren im öffentlichen Raum wahr als davor. (f2A3)",
+    "values": [
+      "0",
+      "1",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 8,
+        "weightedCount": 6.75324745
+      },
+      {
+        "answer": "1",
+        "count": 3,
+        "weightedCount": 2.7766626299999997
+      }
+    ]
+  },
+  "f2A3": {
+    "label": "-\tIch nehme in den vergangenen ein / zwei Jahren mehr Sensoren im öffentlichen Raum wahr als davor.",
+    "category": "Wissen",
+    "description": "-\tNichts davon (f2A4)",
+    "values": [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 9,
+        "weightedCount": 8.37063813
+      },
+      {
+        "answer": "1",
+        "count": 2,
+        "weightedCount": 1.15927195
+      }
+    ]
+  },
+  "f2A4": {
+    "label": "-\tNichts davon",
+    "category": "Wissen",
+    "description": "-\tWeiß nicht/Keine Angabe [INT: Nicht vorlesen] (f2A5)",
+    "values": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "1",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 8,
+        "weightedCount": 6.71134996
+      },
+      {
+        "answer": "1",
+        "count": 3,
+        "weightedCount": 2.81856012
+      }
+    ]
+  },
+  "f2A5": {
+    "label": "-\tWeiß nicht/Keine Angabe",
+    "category": "Wissen",
+    "description": null,
+    "values": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 10,
+        "weightedCount": 8.647065010000002
+      },
+      {
+        "answer": "1",
+        "count": 1,
+        "weightedCount": 0.88284507
+      }
+    ]
+  },
+  "f3_question": {
+    "label": "Frage 3",
+    "category": "Wissen",
+    "description": null,
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "answers": []
+  },
+  "f3A1": {
+    "label": "-\tSensoren zur Messung von bewegten Objekten",
+    "category": "Wissen",
+    "description": "-\tUmweltsensoren [INT Bspw. Luftqualität, Temperatur, Pegelstände...] (f3A2)",
+    "values": [
+      "1",
+      "0",
+      "1",
+      "0",
+      "1",
+      "1",
+      "0",
+      "1",
+      "1",
+      "0",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 4,
+        "weightedCount": 3.2651755599999994
+      },
+      {
+        "answer": "1",
+        "count": 7,
+        "weightedCount": 6.26473452
+      }
+    ]
+  },
+  "f3A2": {
+    "label": "-\tUmweltsensoren",
+    "category": "Wissen",
+    "description": "-\tSensoren zur Messung von Prozessen [INT bspw. In Strom-, Gas-, Wassernetzen; Mülltonnen...] (f3A3)",
+    "values": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "0",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 1,
+        "weightedCount": 1.16858289
+      },
+      {
+        "answer": "1",
+        "count": 10,
+        "weightedCount": 8.36132719
+      }
+    ]
+  },
+  "f3A3": {
+    "label": "-\tSensoren zur Messung von Prozessen",
+    "category": "Wissen",
+    "description": "-\tKameras zur Beobachtung des öffentlichen Raumes (f3A4)",
+    "values": [
+      "1",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 8,
+        "weightedCount": 6.85048763
+      },
+      {
+        "answer": "1",
+        "count": 3,
+        "weightedCount": 2.67942245
+      }
+    ]
+  },
+  "f3A4": {
+    "label": "-\tKameras zur Beobachtung des öffentlichen Raumes",
+    "category": "Wissen",
+    "description": "-\tKeine davon (f3A5)",
+    "values": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "0",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 1,
+        "weightedCount": 1.15767645
+      },
+      {
+        "answer": "1",
+        "count": 10,
+        "weightedCount": 8.37223363
+      }
+    ]
+  },
+  "f3A5": {
+    "label": "-\tKeine davon",
+    "category": "Wissen",
+    "description": "-\tWeiß nicht/Keine Angabe [INT: Nicht vorlesen] (f3A6)",
+    "values": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 11,
+        "weightedCount": 9.529910080000002
+      }
+    ]
+  },
+  "f3A6": {
+    "label": "-\tWeiß nicht/Keine Angabe",
+    "category": "Wissen",
+    "description": null,
+    "values": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 11,
+        "weightedCount": 9.529910080000002
+      }
+    ]
+  },
+  "f4_question": {
+    "label": "Frage 4",
+    "category": "Wissen",
+    "description": "Im Folgenden interessieren wir uns für Ihr Verständnis über die Funktionsweise von Sensoren. Es geht nicht um richtig oder falsch, sondern einfach um Ihre Vorstellung davon. Ich lese Ihnen nun einige Aussagen vor. Welche davon treffen Ihrer Ansicht nach zu?",
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "answers": []
+  },
+  "f4A1": {
+    "label": "-\tSensoren können Daten erfassen",
+    "category": "Wissen",
+    "description": "-\tSensoren sind jederzeit sichtbar (f4A2)",
+    "values": [
+      "0",
+      "1",
+      "1",
+      "1",
+      "0",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 2,
+        "weightedCount": 1.79524248
+      },
+      {
+        "answer": "1",
+        "count": 9,
+        "weightedCount": 7.7346676
+      }
+    ]
+  },
+  "f4A2": {
+    "label": "-\tSensoren sind jederzeit sichtbar",
+    "category": "Wissen",
+    "description": "-\tSensoren können Daten speichern (f4A3)",
+    "values": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 9,
+        "weightedCount": 7.489388560000001
+      },
+      {
+        "answer": "1",
+        "count": 2,
+        "weightedCount": 2.04052152
+      }
+    ]
+  },
+  "f4A3": {
+    "label": "-\tSensoren können Daten speichern",
+    "category": "Wissen",
+    "description": "-\tSensoren können Daten auf Plattformen oder in eine Cloud übertragen (f4A4)",
+    "values": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 4,
+        "weightedCount": 3.5178572399999997
+      },
+      {
+        "answer": "1",
+        "count": 7,
+        "weightedCount": 6.01205284
+      }
+    ]
+  },
+  "f4A4": {
+    "label": "-\tSensoren können Daten auf Plattformen oder in eine Cloud übertragen",
+    "category": "Wissen",
+    "description": "-\tDaten von Sensoren können kombiniert und weiterverarbeitet werden (f4A5)",
+    "values": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 6,
+        "weightedCount": 6.02766453
+      },
+      {
+        "answer": "1",
+        "count": 5,
+        "weightedCount": 3.50224555
+      }
+    ]
+  },
+  "f4A5": {
+    "label": "-\tDaten von Sensoren können kombiniert und weiterverarbeitet werden",
+    "category": "Wissen",
+    "description": "-\tSensoren brauchen ein Kabel für Strom- oder Datenübertragung (f4A6)",
+    "values": [
+      "1",
+      "0",
+      "1",
+      "1",
+      "1",
+      "0",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 2,
+        "weightedCount": 1.76264835
+      },
+      {
+        "answer": "1",
+        "count": 9,
+        "weightedCount": 7.7672617299999995
+      }
+    ]
+  },
+  "f4A6": {
+    "label": "-\tSensoren brauchen ein Kabel für Strom- oder Datenübertragung",
+    "category": "Wissen",
+    "description": "-\tSensordaten können zur automatischen Steuerung von Geräten benutzt werden (f4A7)",
+    "values": [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 9,
+        "weightedCount": 7.69056817
+      },
+      {
+        "answer": "1",
+        "count": 2,
+        "weightedCount": 1.83934191
+      }
+    ]
+  },
+  "f4A7": {
+    "label": "-\tSensordaten können zur automatischen Steuerung von Geräten benutzt werden",
+    "category": "Wissen",
+    "description": "-\tSensoren erfassen immer Daten, die als Person identifizierbar machen (f4A8)",
+    "values": [
+      "1",
+      "1",
+      "1",
+      "0",
+      "1",
+      "1",
+      "0",
+      "0",
+      "1",
+      "0",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 4,
+        "weightedCount": 3.38510151
+      },
+      {
+        "answer": "1",
+        "count": 7,
+        "weightedCount": 6.14480857
+      }
+    ]
+  },
+  "f4A8": {
+    "label": "-\tSensoren erfassen immer Daten, die als Person identifizierbar machen",
+    "category": "Wissen",
+    "description": "-\tKeine davon (f4A9)",
+    "values": [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 10,
+        "weightedCount": 8.84824462
+      },
+      {
+        "answer": "1",
+        "count": 1,
+        "weightedCount": 0.68166546
+      }
+    ]
+  },
+  "f4A9": {
+    "label": "-\tKeine davon",
+    "category": "Wissen",
+    "description": "-\tWeiß nicht/Keine Angabe [INT: Nicht vorlesen] (f4A10)",
+    "values": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 11,
+        "weightedCount": 9.529910080000002
+      }
+    ]
+  },
+  "f4A10": {
+    "label": "-\tWeiß nicht/Keine Angabe",
+    "category": "Wissen",
+    "description": "-\tÜberspringen  (f4A11)",
+    "values": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 11,
+        "weightedCount": 9.529910080000002
+      }
+    ]
+  },
+  "f4A11": {
+    "label": "-\tÜberspringen",
+    "category": "Wissen",
+    "description": null,
+    "values": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 11,
+        "weightedCount": 9.529910080000002
+      }
+    ]
+  },
+  "f5": {
+    "label": "Frage 5",
+    "category": "Befindlichkeit",
+    "description": null,
+    "values": [
+      "3",
+      "4",
+      "3",
+      "4",
+      "3",
+      "3",
+      "2",
+      "2",
+      "2",
+      "2",
+      "3"
+    ],
+    "answers": [
+      {
+        "answer": "2",
+        "count": 4,
+        "weightedCount": 3.60545724
+      },
+      {
+        "answer": "3",
+        "count": 5,
+        "weightedCount": 4.30546666
+      },
+      {
+        "answer": "4",
+        "count": 2,
+        "weightedCount": 1.6189861799999998
+      }
+    ]
+  },
+  "f6_question": {
+    "label": "Frage 6",
+    "category": "Befindlichkeit",
+    "description": null,
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "answers": []
+  },
+  "f6A1_1": {
+    "label": "Sensoren im öffentlichen Raum machen mich neugierig",
+    "category": "Befindlichkeit",
+    "description": "Durch Sensoren im öffentlichen Raum fühle ich mich sicher (sicherer als ohne) (f6A2)\t1\t2\t3\t4\t9",
+    "values": [
+      "3",
+      "4",
+      "4",
+      "2",
+      "1",
+      "4",
+      "1",
+      "3",
+      "1",
+      "2",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 3,
+        "weightedCount": 2.5712687599999997
+      },
+      {
+        "answer": "2",
+        "count": 3,
+        "weightedCount": 2.98874868
+      },
+      {
+        "answer": "3",
+        "count": 2,
+        "weightedCount": 1.6608480700000001
+      },
+      {
+        "answer": "4",
+        "count": 3,
+        "weightedCount": 2.30904457
+      }
+    ]
+  },
+  "f6A2_1": {
+    "label": "Durch Sensoren im öffentlichen Raum fühle ich mich sicher (sicherer als ohne)",
+    "category": "Befindlichkeit",
+    "description": null,
+    "values": [
+      "3",
+      "2",
+      "1",
+      "4",
+      "2",
+      "4",
+      "2",
+      "3",
+      "2",
+      "1",
+      "3"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 2,
+        "weightedCount": 1.7149791099999998
+      },
+      {
+        "answer": "2",
+        "count": 4,
+        "weightedCount": 3.25293422
+      },
+      {
+        "answer": "3",
+        "count": 3,
+        "weightedCount": 2.5436931400000002
+      },
+      {
+        "answer": "4",
+        "count": 2,
+        "weightedCount": 2.0183036100000002
+      }
+    ]
+  },
+  "f6A3_1": {
+    "label": "Sensoren im öffentlichen Raum erzeugen ein Überwachungsgefühl",
+    "category": "Befindlichkeit",
+    "description": null,
+    "values": [
+      "2",
+      "2",
+      "3",
+      "2",
+      "2",
+      "3",
+      "1",
+      "2",
+      "2",
+      "9",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 1,
+        "weightedCount": 0.47760649
+      },
+      {
+        "answer": "2",
+        "count": 7,
+        "weightedCount": 6.256341590000001
+      },
+      {
+        "answer": "3",
+        "count": 2,
+        "weightedCount": 1.6273791100000001
+      },
+      {
+        "answer": "9",
+        "count": 1,
+        "weightedCount": 1.16858289
+      }
+    ]
+  },
+  "f6A4_1": {
+    "label": "Sensoren im öffentlichen Raum finde ich fortschrittlich",
+    "category": "Befindlichkeit",
+    "description": null,
+    "values": [
+      "3",
+      "3",
+      "4",
+      "2",
+      "1",
+      "2",
+      "1",
+      "9",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 5,
+        "weightedCount": 4.6226967199999995
+      },
+      {
+        "answer": "2",
+        "count": 2,
+        "weightedCount": 2.0183036100000002
+      },
+      {
+        "answer": "3",
+        "count": 2,
+        "weightedCount": 1.5409221199999998
+      },
+      {
+        "answer": "4",
+        "count": 1,
+        "weightedCount": 0.54639622
+      },
+      {
+        "answer": "9",
+        "count": 1,
+        "weightedCount": 0.80159141
+      }
+    ]
+  },
+  "f6A5_1": {
+    "label": "Sensoren im öffentlichen Raum lösen keine Probleme",
+    "category": "Befindlichkeit",
+    "description": null,
+    "values": [
+      "2",
+      "3",
+      "2",
+      "1",
+      "3",
+      "4",
+      "9",
+      "1",
+      "2",
+      "4",
+      "3"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 2,
+        "weightedCount": 1.7389121300000001
+      },
+      {
+        "answer": "2",
+        "count": 3,
+        "weightedCount": 2.56332933
+      },
+      {
+        "answer": "3",
+        "count": 3,
+        "weightedCount": 2.50049635
+      },
+      {
+        "answer": "4",
+        "count": 2,
+        "weightedCount": 2.24956578
+      },
+      {
+        "answer": "9",
+        "count": 1,
+        "weightedCount": 0.47760649
+      }
+    ]
+  },
+  "f7": {
+    "label": "Frage 7",
+    "category": "Befindlichkeit",
+    "description": "Wie beurteilen Sie die Anzahl der Geräte mit Sensoren im öffentlichen Raum?",
+    "values": [
+      "1",
+      "2",
+      "1",
+      "3",
+      "3",
+      "3",
+      "2",
+      "3",
+      "3",
+      "1",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 3,
+        "weightedCount": 2.5742357699999996
+      },
+      {
+        "answer": "2",
+        "count": 3,
+        "weightedCount": 2.04211702
+      },
+      {
+        "answer": "3",
+        "count": 5,
+        "weightedCount": 4.91355729
+      }
+    ]
+  },
+  "f8_question": {
+    "label": "Frage 8",
+    "category": "Befindlichkeit",
+    "description": "Welchen Einfluss hätten die folgenden Maßnahmen auf Ihre Zustimmung  zu Sensoren im öffentlichen Raum. Bitte antworten Sie mit Hilfe einer Skala, bei der 1 bedeutet: „Würde meine Zustimmung erhöhen“, 2 „Würde keinen Unterschied machen“, 3 „Würde meine Zustimmung verringern“.",
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "answers": []
+  },
+  "f8A1_1": {
+    "label": "Sichtbare Hinweisschilder auf dem Sensor vor Ort",
+    "category": "Befindlichkeit",
+    "description": "Detaillierte Informationen zum Sensor / in der Nähe des Sensors",
+    "values": [
+      "3",
+      "2",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 7,
+        "weightedCount": 5.89399079
+      },
+      {
+        "answer": "2",
+        "count": 3,
+        "weightedCount": 2.7766626299999997
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 0.85925666
+      }
+    ]
+  },
+  "f8A2_1": {
+    "label": "Detaillierte Informationen zum Sensor / in der Nähe des Sensors",
+    "category": "Befindlichkeit",
+    "description": "leicht auffindbare Informationen zum Sensor im Internet",
+    "values": [
+      "9",
+      "1",
+      "1",
+      "1",
+      "2",
+      "2",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 7,
+        "weightedCount": 5.8520933
+      },
+      {
+        "answer": "2",
+        "count": 3,
+        "weightedCount": 2.81856012
+      },
+      {
+        "answer": "9",
+        "count": 1,
+        "weightedCount": 0.85925666
+      }
+    ]
+  },
+  "f8A3_1": {
+    "label": "leicht auffindbare Informationen zum Sensor im Internet",
+    "category": "Befindlichkeit",
+    "description": "Regionale öffentliche Berichterstattung",
+    "values": [
+      "3",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 5,
+        "weightedCount": 3.7226368799999996
+      },
+      {
+        "answer": "2",
+        "count": 5,
+        "weightedCount": 4.94801654
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 0.85925666
+      }
+    ]
+  },
+  "f8A4_1": {
+    "label": "Regionale öffentliche Berichterstattung",
+    "category": "Befindlichkeit",
+    "description": "Informationen zur Funktionsweise des Sensors (f8A5)\t1\t2\t3\t9",
+    "values": [
+      "2",
+      "1",
+      "2",
+      "2",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 7,
+        "weightedCount": 6.25095066
+      },
+      {
+        "answer": "2",
+        "count": 4,
+        "weightedCount": 3.2789594199999996
+      }
+    ]
+  },
+  "f8A5_1": {
+    "label": "Informationen zur Funktionsweise des Sensors",
+    "category": "Befindlichkeit",
+    "description": "Informationen zur Nutzung der durch den Sensor erhobenen Daten (f8A6)\t1\t2\t3\t9",
+    "values": [
+      "2",
+      "2",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 8,
+        "weightedCount": 7.44259174
+      },
+      {
+        "answer": "2",
+        "count": 3,
+        "weightedCount": 2.08731834
+      }
+    ]
+  },
+  "f8A6_1": {
+    "label": "Informationen zur Nutzung der durch den Sensor erhobenen Daten",
+    "category": "Befindlichkeit",
+    "description": "Zeitliche Beschränkung",
+    "values": [
+      "2",
+      "2",
+      "1",
+      "1",
+      "1",
+      "2",
+      "2",
+      "1",
+      "1",
+      "2",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 6,
+        "weightedCount": 5.26181569
+      },
+      {
+        "answer": "2",
+        "count": 5,
+        "weightedCount": 4.26809439
+      }
+    ]
+  },
+  "f8A7_1": {
+    "label": "Zeitliche Beschränkung",
+    "category": "Befindlichkeit",
+    "description": "Markierungen, die ein Ausweichen ermöglichen/Wahlmöglichkeiten (f8A8)\t1\t2\t3\t9",
+    "values": [
+      "9",
+      "2",
+      "2",
+      "1",
+      "2",
+      "3",
+      "2",
+      "1",
+      "2",
+      "2",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 3,
+        "weightedCount": 2.6217572000000002
+      },
+      {
+        "answer": "2",
+        "count": 6,
+        "weightedCount": 4.967913329999999
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 1.08098289
+      },
+      {
+        "answer": "9",
+        "count": 1,
+        "weightedCount": 0.85925666
+      }
+    ]
+  },
+  "f8A8_1": {
+    "label": "Markierungen, die ein Ausweichen ermöglichen/Wahlmöglichkeiten",
+    "category": "Befindlichkeit",
+    "description": "Information über den bisherigen Nutzen des Sensors / was er gebracht hat",
+    "values": [
+      "2",
+      "2",
+      "1",
+      "1",
+      "1",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 3,
+        "weightedCount": 2.41970276
+      },
+      {
+        "answer": "2",
+        "count": 8,
+        "weightedCount": 7.11020732
+      }
+    ]
+  },
+  "f8A9_1": {
+    "label": "Information über den bisherigen Nutzen des Sensors / was er gebracht hat",
+    "category": "Befindlichkeit",
+    "description": null,
+    "values": [
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "2",
+      "1",
+      "2",
+      "2",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 6,
+        "weightedCount": 4.90587846
+      },
+      {
+        "answer": "2",
+        "count": 5,
+        "weightedCount": 4.62403162
+      }
+    ]
+  },
+  "f9_question": {
+    "label": "Frage 9",
+    "category": "Befindlichkeit",
+    "description": "Wir betrachten nun nochmals die zuvor genannten Sensoren nach den Gefühlen, die Sie damit verbinden. Ich nenne Ihnen nun jeweils wieder diese Typen von Sensoren im öffentlichen Raum. Bitte geben Sie an, welches Gefühl überwiegt? Bitte antworten Sie mit Hilfe einer Skala, bei der 1 bedeutet: „Sehr positiv“, 2 „Eher positiv“, 3 „Eher negativ“ und 4 „Sehr negativ“.",
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "answers": []
+  },
+  "f9A1_1": {
+    "label": "Sensoren zur Messung/Wahrnehmung von bewegten Objekten",
+    "category": "Befindlichkeit",
+    "description": "Umweltsensoren",
+    "values": [
+      "1",
+      null,
+      "2",
+      null,
+      "3",
+      "1",
+      null,
+      "2",
+      "1",
+      null,
+      "4"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 3,
+        "weightedCount": 3.097916
+      },
+      {
+        "answer": "2",
+        "count": 2,
+        "weightedCount": 1.34798763
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 0.93598582
+      },
+      {
+        "answer": "4",
+        "count": 1,
+        "weightedCount": 0.88284507
+      }
+    ]
+  },
+  "f9A2_1": {
+    "label": "Umweltsensoren",
+    "category": "Befindlichkeit",
+    "description": null,
+    "values": [
+      "2",
+      "1",
+      "2",
+      "2",
+      "1",
+      "2",
+      "2",
+      "1",
+      "2",
+      null,
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 3,
+        "weightedCount": 2.41924269
+      },
+      {
+        "answer": "2",
+        "count": 7,
+        "weightedCount": 5.9420845
+      }
+    ]
+  },
+  "f9A3_1": {
+    "label": "Sensoren zur Messung/Nachverfolgung von Prozessen",
+    "category": "Befindlichkeit",
+    "description": "Kameras zur Beobachtung des öffentlichen Raumes (f9A4)\t1\t2\t3\t4\t9",
+    "values": [
+      "1",
+      null,
+      null,
+      "2",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 1,
+        "weightedCount": 0.85925666
+      },
+      {
+        "answer": "2",
+        "count": 2,
+        "weightedCount": 1.82016579
+      }
+    ]
+  },
+  "f9A4_1": {
+    "label": "Kameras zur Beobachtung des öffentlichen Raumes",
+    "category": "Befindlichkeit",
+    "description": null,
+    "values": [
+      "1",
+      "4",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "1",
+      null,
+      "1",
+      "3"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 3,
+        "weightedCount": 2.82943096
+      },
+      {
+        "answer": "2",
+        "count": 5,
+        "weightedCount": 3.9782921399999998
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 0.88284507
+      },
+      {
+        "answer": "4",
+        "count": 1,
+        "weightedCount": 0.68166546
+      }
+    ]
+  },
+  "f10_question": {
+    "label": "Frage 10",
+    "category": "Vertrauen",
+    "description": null,
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "answers": []
+  },
+  "f10A1": {
+    "label": "-\tEs ist mir wichtig, Kontrolle über die Freigabe mich betreffender Daten zu behalten.",
+    "category": "Vertrauen",
+    "description": "-\tIch habe nichts gegen eine Datennutzung, wenn diese anonymisiert erfolgt. (f10A2)",
+    "values": [
+      "1",
+      "0",
+      "0",
+      "1",
+      "1",
+      "1",
+      "1",
+      "0",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 3,
+        "weightedCount": 2.02965309
+      },
+      {
+        "answer": "1",
+        "count": 8,
+        "weightedCount": 7.5002569900000005
+      }
+    ]
+  },
+  "f10A2": {
+    "label": "-\tIch habe nichts gegen eine Datennutzung, wenn diese anonymisiert erfolgt.",
+    "category": "Vertrauen",
+    "description": "-\tIch stimme einer Datennutzung zu, wenn mich betreffende Daten nur so nach statistischen Merkmalen [INT bspw. Alter, Geschlecht] verarbeitet werden, dass ich dabei nicht identifizierbar bin. (f10A3)",
+    "values": [
+      "1",
+      "1",
+      "0",
+      "1",
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 6,
+        "weightedCount": 5.03469853
+      },
+      {
+        "answer": "1",
+        "count": 5,
+        "weightedCount": 4.4952115500000005
+      }
+    ]
+  },
+  "f10A3": {
+    "label": "-\tIch stimme einer Datennutzung zu, wenn mich betreffende Daten nur so nach statistischen Merkmalen  verarbeitet werden, dass ich dabei nicht identifizierbar bin.",
+    "category": "Vertrauen",
+    "description": "-\tIch stimme einer Datennutzung zu, auch wenn ich dabei identifizierbar bin. (f10A4)",
+    "values": [
+      "1",
+      "0",
+      "0",
+      "1",
+      "1",
+      "0",
+      "0",
+      "1",
+      "1",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 6,
+        "weightedCount": 4.83807902
+      },
+      {
+        "answer": "1",
+        "count": 5,
+        "weightedCount": 4.69183106
+      }
+    ]
+  },
+  "f10A4": {
+    "label": "-\tIch stimme einer Datennutzung zu, auch wenn ich dabei identifizierbar bin.",
+    "category": "Vertrauen",
+    "description": "-\tKeine davon (f10A5)",
+    "values": [
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 10,
+        "weightedCount": 8.983513860000002
+      },
+      {
+        "answer": "1",
+        "count": 1,
+        "weightedCount": 0.54639622
+      }
+    ]
+  },
+  "f10A5": {
+    "label": "-\tKeine davon",
+    "category": "Vertrauen",
+    "description": "-\tWeiß nicht/keine Angabe (f10A6)",
+    "values": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 11,
+        "weightedCount": 9.529910080000002
+      }
+    ]
+  },
+  "f10A6": {
+    "label": "-\tWeiß nicht/keine Angabe",
+    "category": "Vertrauen",
+    "description": null,
+    "values": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 11,
+        "weightedCount": 9.529910080000002
+      }
+    ]
+  },
+  "f11": {
+    "label": "Frage 11",
+    "category": "Vertrauen",
+    "description": "Gespeicherte Daten aus Sensoren werden sowohl von öffentlichen als auch von privaten Betreibern verarbeitet [INT: d.h., Daten werden gesammelt, gespeichert und ausgewertet]. Hat die Art des Betreibers einen Einfluss auf Ihr Vertrauen in die datenschutzkonforme Datenverarbeitung?",
+    "values": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "3",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 9,
+        "weightedCount": 8.11631777
+      },
+      {
+        "answer": "2",
+        "count": 1,
+        "weightedCount": 0.93598582
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 0.47760649
+      }
+    ]
+  },
+  "f11b": {
+    "label": "Frage 11b",
+    "category": "Vertrauen",
+    "description": "Welche der folgenden Aussagen trifft am meisten auf Sie zu?",
+    "values": [
+      "3",
+      "3",
+      "4",
+      "4",
+      null,
+      "4",
+      null,
+      "4",
+      "3",
+      "3",
+      "4"
+    ],
+    "answers": [
+      {
+        "answer": "3",
+        "count": 4,
+        "weightedCount": 3.8671814599999994
+      },
+      {
+        "answer": "4",
+        "count": 5,
+        "weightedCount": 4.24913631
+      }
+    ]
+  },
+  "f11c": {
+    "label": "Frage 11c",
+    "category": "Vertrauen",
+    "description": "Welche der folgenden Aussagen trifft am meisten auf Sie zu?",
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      "2",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "answers": [
+      {
+        "answer": "2",
+        "count": 1,
+        "weightedCount": 0.93598582
+      }
+    ]
+  },
+  "f12": {
+    "label": "Frage 12",
+    "category": "Erwartungen an Verwaltung",
+    "description": "Wer ist Ihrer Ansicht nach dafür hauptsächlich verantwortlich, über Sensoren im öffentlichen Raum zu informieren?",
+    "values": [
+      "2",
+      "1",
+      "1",
+      "1",
+      "3",
+      "1",
+      "2",
+      "2",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 7,
+        "weightedCount": 6.4554697
+      },
+      {
+        "answer": "2",
+        "count": 3,
+        "weightedCount": 2.13845456
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 0.93598582
+      }
+    ]
+  },
+  "f13_question": {
+    "label": "Frage 13",
+    "category": "Erwartungen an Verwaltung",
+    "description": "Ich lese Ihnen nun einige Aussagen zu Sensoren im öffentlichen Raum vor. Bitte antworten Sie mit Hilfe einer Skala, bei der 1 bedeutet: „Trifft voll und ganz zu“, 2 „Trifft eher zu“, 3 „Trifft eher weniger zu“ und 4 „Trifft überhaupt nicht zu“.",
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "answers": []
+  },
+  "f13A1_1": {
+    "label": "Ich bin ausreichend informiert, wozu im öffentlichen Raum Sensoren genutzt werden",
+    "category": "Erwartungen an Verwaltung",
+    "description": "Ich möchte mehr Informationen erhalten, welche mich betreffenden Daten durch Sensoren erhoben werden (f13A2)\t1\t2\t3\t4\t9",
+    "values": [
+      "4",
+      "4",
+      "2",
+      "2",
+      "3",
+      "3",
+      "3",
+      "4",
+      "2",
+      "2",
+      "3"
+    ],
+    "answers": [
+      {
+        "answer": "2",
+        "count": 4,
+        "weightedCount": 3.80997628
+      },
+      {
+        "answer": "3",
+        "count": 4,
+        "weightedCount": 3.37742027
+      },
+      {
+        "answer": "4",
+        "count": 3,
+        "weightedCount": 2.3425135299999997
+      }
+    ]
+  },
+  "f13A2_1": {
+    "label": "Ich möchte mehr Informationen erhalten, welche mich betreffenden Daten durch Sensoren erhoben werden",
+    "category": "Erwartungen an Verwaltung",
+    "description": "Mir ist nicht klar, wozu mich betreffende Daten aus Sensoren genutzt werden (f13A3)\t1\t2\t3\t4\t9",
+    "values": [
+      "1",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "3",
+      "1",
+      "2",
+      "1",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 3,
+        "weightedCount": 2.82943096
+      },
+      {
+        "answer": "2",
+        "count": 7,
+        "weightedCount": 6.22287263
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 0.47760649
+      }
+    ]
+  },
+  "f13A3_1": {
+    "label": "Mir ist nicht klar, wozu mich betreffende Daten aus Sensoren genutzt werden",
+    "category": "Erwartungen an Verwaltung",
+    "description": null,
+    "values": [
+      "1",
+      "1",
+      "4",
+      "2",
+      "3",
+      "1",
+      "1",
+      "1",
+      "2",
+      "3",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 6,
+        "weightedCount": 4.78394798
+      },
+      {
+        "answer": "2",
+        "count": 2,
+        "weightedCount": 2.09499717
+      },
+      {
+        "answer": "3",
+        "count": 2,
+        "weightedCount": 2.1045687099999997
+      },
+      {
+        "answer": "4",
+        "count": 1,
+        "weightedCount": 0.54639622
+      }
+    ]
+  },
+  "f14": {
+    "label": "Frage 14",
+    "category": "Erwartungen an Verwaltung",
+    "description": "Verwenden Sie am Körper getragene Technik, wie Fitness-Tracker/Armbänder oder Smartwatches (sogenannte Wearables) oder eine Fitness-App, die Daten [INT bspw.  Herzfrequenz, Kalorienverbrauch, Routen] erfasst? (Ja/Nein)",
+    "values": [
+      "3",
+      "1",
+      "1",
+      "2",
+      "1",
+      "2",
+      "1",
+      "2",
+      "2",
+      "1",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 5,
+        "weightedCount": 3.8102368799999997
+      },
+      {
+        "answer": "2",
+        "count": 5,
+        "weightedCount": 4.86041654
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 0.85925666
+      }
+    ]
+  },
+  "f14b": {
+    "label": "Frage 14b",
+    "category": "Erwartungen an Verwaltung",
+    "description": "Wenn Sie Wearables tragen, spielt für Sie eine Rolle, ob Ihre personenbezogenen Daten [INT: z.B. Herzfrequenz, Kalorienverbrauch, Routen] an den Hersteller oder Dritte weitergegeben werden?",
+    "values": [
+      null,
+      "1",
+      "3",
+      null,
+      "2",
+      null,
+      "1",
+      null,
+      null,
+      "2",
+      null
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 2,
+        "weightedCount": 1.15927195
+      },
+      {
+        "answer": "2",
+        "count": 2,
+        "weightedCount": 2.1045687099999997
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 0.54639622
+      }
+    ]
+  },
+  "f15": {
+    "label": "Frage 15",
+    "category": "Erwartungen an Verwaltung",
+    "description": "Nutzen Sie die Corona-Warn-App?",
+    "values": [
+      "2",
+      "2",
+      "1",
+      "3",
+      "2",
+      "1",
+      "2",
+      "3",
+      "3",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 4,
+        "weightedCount": 3.6788070700000004
+      },
+      {
+        "answer": "2",
+        "count": 4,
+        "weightedCount": 2.9545144299999997
+      },
+      {
+        "answer": "3",
+        "count": 3,
+        "weightedCount": 2.8965885800000004
+      }
+    ]
+  },
+  "f16": {
+    "label": "Frage 16",
+    "category": "Erwartungen an Verwaltung",
+    "description": "Nutzen Sie die LUCA-App?",
+    "values": [
+      "1",
+      "3",
+      "1",
+      null,
+      "1",
+      "1",
+      "2",
+      null,
+      null,
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 6,
+        "weightedCount": 5.47404955
+      },
+      {
+        "answer": "2",
+        "count": 1,
+        "weightedCount": 0.47760649
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 0.68166546
+      }
+    ]
+  },
+  "f17": {
+    "label": "Frage 17",
+    "category": "Fokus Kameras",
+    "description": null,
+    "values": [
+      "2",
+      "2",
+      "2",
+      "4",
+      "4",
+      "2",
+      "2",
+      "4",
+      "4",
+      "4",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "2",
+        "count": 6,
+        "weightedCount": 4.5287527899999995
+      },
+      {
+        "answer": "4",
+        "count": 5,
+        "weightedCount": 5.00115729
+      }
+    ]
+  },
+  "f18": {
+    "label": "Frage 18",
+    "category": "Fokus Kameras",
+    "description": "Was bedeutet für Sie mehr Videoüberwachung?",
+    "values": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4",
+      "1",
+      "1",
+      "1",
+      "3",
+      "1",
+      "3"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 5,
+        "weightedCount": 4.38802034
+      },
+      {
+        "answer": "2",
+        "count": 1,
+        "weightedCount": 0.68166546
+      },
+      {
+        "answer": "3",
+        "count": 3,
+        "weightedCount": 2.58691774
+      },
+      {
+        "answer": "4",
+        "count": 2,
+        "weightedCount": 1.87330654
+      }
+    ]
+  },
+  "f19_question": {
+    "label": "Frage 19",
+    "category": "Fokus Kameras",
+    "description": null,
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "answers": []
+  },
+  "f19A1_1": {
+    "label": "Es sollten mehr Kameras im öffentlichen Raum angebracht werden, um Gefahren besser abzuwenden",
+    "category": "Fokus Kameras",
+    "description": "Es ist bedenklich, dass intelligente Kamerasysteme mittlerweile die Aufenthaltsorte von Menschen automatisch verfolgen können (f19A2)\t1\t2\t3\t4\t9",
+    "values": [
+      "2",
+      "3",
+      "4",
+      "3",
+      "2",
+      "4",
+      "2",
+      "2",
+      "2",
+      "2",
+      "3"
+    ],
+    "answers": [
+      {
+        "answer": "2",
+        "count": 6,
+        "weightedCount": 5.4006997199999995
+      },
+      {
+        "answer": "3",
+        "count": 3,
+        "weightedCount": 2.50183125
+      },
+      {
+        "answer": "4",
+        "count": 2,
+        "weightedCount": 1.6273791100000001
+      }
+    ]
+  },
+  "f19A2_1": {
+    "label": "Es ist bedenklich, dass intelligente Kamerasysteme mittlerweile die Aufenthaltsorte von Menschen automatisch verfolgen können",
+    "category": "Fokus Kameras",
+    "description": "Aufgrund von Kameras im öffentlichen Raum passe ich mein Verhalten an",
+    "values": [
+      "1",
+      "1",
+      "2",
+      "3",
+      "3",
+      "1",
+      "2",
+      "3",
+      "1",
+      "4",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 4,
+        "weightedCount": 3.77958146
+      },
+      {
+        "answer": "2",
+        "count": 3,
+        "weightedCount": 1.90684778
+      },
+      {
+        "answer": "3",
+        "count": 3,
+        "weightedCount": 2.67489795
+      },
+      {
+        "answer": "4",
+        "count": 1,
+        "weightedCount": 1.16858289
+      }
+    ]
+  },
+  "f19A3_1": {
+    "label": "Aufgrund von Kameras im öffentlichen Raum passe ich mein Verhalten an",
+    "category": "Fokus Kameras",
+    "description": "Mich unerkannt im öffentlichen Raum bewegen zu können, ist mir wichtiger als der potentielle Schutz durch Kameras (f19A4)\t1\t2\t3\t4\t9",
+    "values": [
+      "4",
+      "2",
+      "1",
+      "9",
+      "3",
+      "4",
+      "4",
+      "4",
+      "3",
+      "4",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 2,
+        "weightedCount": 1.42924129
+      },
+      {
+        "answer": "2",
+        "count": 1,
+        "weightedCount": 0.68166546
+      },
+      {
+        "answer": "3",
+        "count": 2,
+        "weightedCount": 2.0936622700000003
+      },
+      {
+        "answer": "4",
+        "count": 5,
+        "weightedCount": 4.38802034
+      },
+      {
+        "answer": "9",
+        "count": 1,
+        "weightedCount": 0.93732072
+      }
+    ]
+  },
+  "f19A4_1": {
+    "label": "Mich unerkannt im öffentlichen Raum bewegen zu können, ist mir wichtiger als der potentielle Schutz durch Kameras",
+    "category": "Fokus Kameras",
+    "description": "Ich befürchte, aus Bilddaten werden häufig fragwürdige Schlüsse gezogen.",
+    "values": [
+      "4",
+      "2",
+      "1",
+      "9",
+      "3",
+      "9",
+      "4",
+      "4",
+      "4",
+      "4",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 2,
+        "weightedCount": 1.42924129
+      },
+      {
+        "answer": "2",
+        "count": 1,
+        "weightedCount": 0.68166546
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 0.93598582
+      },
+      {
+        "answer": "4",
+        "count": 5,
+        "weightedCount": 4.4647139
+      },
+      {
+        "answer": "9",
+        "count": 2,
+        "weightedCount": 2.0183036100000002
+      }
+    ]
+  },
+  "f19A5_1": {
+    "label": "Ich befürchte, aus Bilddaten werden häufig fragwürdige Schlüsse gezogen.",
+    "category": "Fokus Kameras",
+    "description": "Der Nutzen einer Videoüberwachung ist regelmäßig nachzuweisen (f19A6)\t1\t2\t3\t4\t9",
+    "values": [
+      "3",
+      "1",
+      "1",
+      "1",
+      "3",
+      "4",
+      "3",
+      "9",
+      "2",
+      "4",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 4,
+        "weightedCount": 3.04822747
+      },
+      {
+        "answer": "2",
+        "count": 1,
+        "weightedCount": 1.15767645
+      },
+      {
+        "answer": "3",
+        "count": 3,
+        "weightedCount": 2.27284897
+      },
+      {
+        "answer": "4",
+        "count": 2,
+        "weightedCount": 2.24956578
+      },
+      {
+        "answer": "9",
+        "count": 1,
+        "weightedCount": 0.80159141
+      }
+    ]
+  },
+  "f19A6_1": {
+    "label": "Der Nutzen einer Videoüberwachung ist regelmäßig nachzuweisen",
+    "category": "Fokus Kameras",
+    "description": null,
+    "values": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "4",
+      "2",
+      "3",
+      "3",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 6,
+        "weightedCount": 4.84346995
+      },
+      {
+        "answer": "2",
+        "count": 2,
+        "weightedCount": 1.8825743
+      },
+      {
+        "answer": "3",
+        "count": 2,
+        "weightedCount": 2.32625934
+      },
+      {
+        "answer": "4",
+        "count": 1,
+        "weightedCount": 0.47760649
+      }
+    ]
+  },
+  "f20_question": {
+    "label": "Frage 20",
+    "category": "Fokus Kameras",
+    "description": "Wo würden Sie einer Videoüberwachung zustimmen? Bitte antworten Sie mit Hilfe einer Skala, bei der 1 bedeutet: „Stimme uneingeschränkt zu“, 2 „Stimme nur eingeschränkt zu“ und 3 „Lehne es uneingeschränkt ab“.",
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "answers": []
+  },
+  "f20A1_1": {
+    "label": "Vor Versorgungsunternehmen wie bspw. Stadtwerke, E-Werke",
+    "category": "Fokus Kameras",
+    "description": "Vor Gerichtsgebäude, Rathäuser, Bürgerämter (f20A2)\t1\t2\t3\t9",
+    "values": [
+      "1",
+      "2",
+      "2",
+      "3",
+      "1",
+      "1",
+      "1",
+      "3",
+      "3",
+      "3",
+      "9"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 4,
+        "weightedCount": 3.35383186
+      },
+      {
+        "answer": "2",
+        "count": 2,
+        "weightedCount": 1.22806168
+      },
+      {
+        "answer": "3",
+        "count": 4,
+        "weightedCount": 4.06517147
+      },
+      {
+        "answer": "9",
+        "count": 1,
+        "weightedCount": 0.88284507
+      }
+    ]
+  },
+  "f20A2_1": {
+    "label": "Vor Gerichtsgebäude, Rathäuser, Bürgerämter",
+    "category": "Fokus Kameras",
+    "description": "BodyCams an Einsatzkräften",
+    "values": [
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1",
+      "2",
+      "3",
+      "2",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 7,
+        "weightedCount": 5.46473861
+      },
+      {
+        "answer": "2",
+        "count": 3,
+        "weightedCount": 2.90749502
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 1.15767645
+      }
+    ]
+  },
+  "f20A3_1": {
+    "label": "BodyCams an Einsatzkräften",
+    "category": "Fokus Kameras",
+    "description": "Vor Schulen (f20A4)\t1\t2\t3\t9",
+    "values": [
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "2",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 8,
+        "weightedCount": 7.348230920000001
+      },
+      {
+        "answer": "2",
+        "count": 3,
+        "weightedCount": 2.18167916
+      }
+    ]
+  },
+  "f20A4_1": {
+    "label": "Vor Schulen",
+    "category": "Fokus Kameras",
+    "description": "Im Verkehr/Kreuzungen (fließend, ruhend) (f20A5)\t1\t2\t3\t9",
+    "values": [
+      "1",
+      "1",
+      "2",
+      "1",
+      "2",
+      "1",
+      "2",
+      "1",
+      "2",
+      "1",
+      "3"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 6,
+        "weightedCount": 5.52940003
+      },
+      {
+        "answer": "2",
+        "count": 4,
+        "weightedCount": 3.11766498
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 0.88284507
+      }
+    ]
+  },
+  "f20A5_1": {
+    "label": "Im Verkehr/Kreuzungen (fließend, ruhend)",
+    "category": "Fokus Kameras",
+    "description": "An öffentliche Plätze und Parks (f20A6)\t1\t2\t3\t9",
+    "values": [
+      "1",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 9,
+        "weightedCount": 8.37063813
+      },
+      {
+        "answer": "2",
+        "count": 2,
+        "weightedCount": 1.15927195
+      }
+    ]
+  },
+  "f20A6_1": {
+    "label": "An öffentliche Plätze und Parks",
+    "category": "Fokus Kameras",
+    "description": "Vor öffentlichen Toiletten/ vor Umkleidekabinen (f20A7)\t1\t2\t3\t9",
+    "values": [
+      "1",
+      "2",
+      "2",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 7,
+        "weightedCount": 6.06318906
+      },
+      {
+        "answer": "2",
+        "count": 4,
+        "weightedCount": 3.4667210200000005
+      }
+    ]
+  },
+  "f20A7_1": {
+    "label": "Vor öffentlichen Toiletten/ vor Umkleidekabinen",
+    "category": "Fokus Kameras",
+    "description": "Im öffentlichen Nahverkehr und auf Bahnhöfen und Haltestellen (f20A8)\t1\t2\t3\t9",
+    "values": [
+      "2",
+      "3",
+      "2",
+      "3",
+      "3",
+      "3",
+      "2",
+      "2",
+      "2",
+      "2",
+      "9"
+    ],
+    "answers": [
+      {
+        "answer": "2",
+        "count": 6,
+        "weightedCount": 5.01111012
+      },
+      {
+        "answer": "3",
+        "count": 4,
+        "weightedCount": 3.63595489
+      },
+      {
+        "answer": "9",
+        "count": 1,
+        "weightedCount": 0.88284507
+      }
+    ]
+  },
+  "f20A8_1": {
+    "label": "Im öffentlichen Nahverkehr und auf Bahnhöfen und Haltestellen",
+    "category": "Fokus Kameras",
+    "description": "Auf Marktplätzen/in Einkaufsstraßen/Einkaufszentren (f20A9)\t1\t2\t3\t9",
+    "values": [
+      "2",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 9,
+        "weightedCount": 7.98898796
+      },
+      {
+        "answer": "2",
+        "count": 2,
+        "weightedCount": 1.5409221199999998
+      }
+    ]
+  },
+  "f20A9_1": {
+    "label": "Auf Marktplätzen/in Einkaufsstraßen/Einkaufszentren",
+    "category": "Fokus Kameras",
+    "description": "Vor einzelnstehenden Geschäften bzw. Gastronomie (f20A10)\t1\t2\t3\t9",
+    "values": [
+      "2",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "9",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 4,
+        "weightedCount": 3.2450303899999997
+      },
+      {
+        "answer": "2",
+        "count": 6,
+        "weightedCount": 5.8072732
+      },
+      {
+        "answer": "9",
+        "count": 1,
+        "weightedCount": 0.47760649
+      }
+    ]
+  },
+  "f20A10_1": {
+    "label": "Vor einzelnstehenden Geschäften bzw. Gastronomie",
+    "category": "Fokus Kameras",
+    "description": "In Wohnstraßen/Wohnvierteln (f20A11)\t1\t2\t3\t9",
+    "values": [
+      "3",
+      "2",
+      "2",
+      "2",
+      "2",
+      "1",
+      "2",
+      "2",
+      "2",
+      "2",
+      "3"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 1,
+        "weightedCount": 1.08098289
+      },
+      {
+        "answer": "2",
+        "count": 8,
+        "weightedCount": 6.70682546
+      },
+      {
+        "answer": "3",
+        "count": 2,
+        "weightedCount": 1.74210173
+      }
+    ]
+  },
+  "f20A11_1": {
+    "label": "In Wohnstraßen/Wohnvierteln",
+    "category": "Fokus Kameras",
+    "description": null,
+    "values": [
+      "3",
+      "3",
+      "3",
+      "3",
+      "3",
+      "1",
+      "2",
+      "2",
+      "3",
+      "2",
+      "3"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 1,
+        "weightedCount": 1.08098289
+      },
+      {
+        "answer": "2",
+        "count": 3,
+        "weightedCount": 2.44778079
+      },
+      {
+        "answer": "3",
+        "count": 7,
+        "weightedCount": 6.0011464000000005
+      }
+    ]
+  },
+  "f21_question": {
+    "label": "Frage 21",
+    "category": "Fokus Kameras",
+    "description": "Im Folgenden geht es um Ziele, für die eine Videoüberwachung eingesetzt werden könnte. Für die Erreichung welcher Ziele akzeptieren Sie Videoüberwachung?",
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "answers": []
+  },
+  "f21A1": {
+    "label": "-\tMüllvermeidung im öffentlichen Raum",
+    "category": "Fokus Kameras",
+    "description": "-\tSchutz von Leib und Leben [INT bspw. durch unmittelbare Alarmierung von  Einsatzkräften] (f21A2)",
+    "values": [
+      "1",
+      "0",
+      "0",
+      "1",
+      "0",
+      "1",
+      "1",
+      "0",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 4,
+        "weightedCount": 2.9656389099999996
+      },
+      {
+        "answer": "1",
+        "count": 7,
+        "weightedCount": 6.56427117
+      }
+    ]
+  },
+  "f21A2": {
+    "label": "-\tSchutz von Leib und Leben",
+    "category": "Fokus Kameras",
+    "description": "-\tVermeidung von Unfällen (f21A3)",
+    "values": [
+      "1",
+      "0",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 1,
+        "weightedCount": 0.68166546
+      },
+      {
+        "answer": "1",
+        "count": 10,
+        "weightedCount": 8.84824462
+      }
+    ]
+  },
+  "f21A3": {
+    "label": "-\tVermeidung von Unfällen",
+    "category": "Fokus Kameras",
+    "description": "-\tSchutz des Privateigentums (f21A4)",
+    "values": [
+      "1",
+      "1",
+      "0",
+      "1",
+      "0",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 2,
+        "weightedCount": 1.48238204
+      },
+      {
+        "answer": "1",
+        "count": 9,
+        "weightedCount": 8.04752804
+      }
+    ]
+  },
+  "f21A4": {
+    "label": "-\tSchutz des Privateigentums",
+    "category": "Fokus Kameras",
+    "description": "-\tSchutz des öffentlichen Eigentums (f21A5)",
+    "values": [
+      "0",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "0",
+      "1",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 3,
+        "weightedCount": 2.89977818
+      },
+      {
+        "answer": "1",
+        "count": 8,
+        "weightedCount": 6.6301319
+      }
+    ]
+  },
+  "f21A5": {
+    "label": "-\tSchutz des öffentlichen Eigentums",
+    "category": "Fokus Kameras",
+    "description": "-\tVermeidung von Kriminalität (f21A6)",
+    "values": [
+      "1",
+      "0",
+      "1",
+      "0",
+      "1",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 6,
+        "weightedCount": 5.503834899999999
+      },
+      {
+        "answer": "1",
+        "count": 5,
+        "weightedCount": 4.026075179999999
+      }
+    ]
+  },
+  "f21A6": {
+    "label": "-\tVermeidung von Kriminalität",
+    "category": "Fokus Kameras",
+    "description": "-\tErfassung von Verkehrsdelikten (f21A7)",
+    "values": [
+      "1",
+      "1",
+      "1",
+      "0",
+      "1",
+      "0",
+      "1",
+      "1",
+      "1",
+      "1",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 3,
+        "weightedCount": 2.9011486800000004
+      },
+      {
+        "answer": "1",
+        "count": 8,
+        "weightedCount": 6.6287614
+      }
+    ]
+  },
+  "f21A7": {
+    "label": "-\tErfassung von Verkehrsdelikten",
+    "category": "Fokus Kameras",
+    "description": "-\tStrafverfolgung (f21A8)",
+    "values": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "0",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 1,
+        "weightedCount": 1.08098289
+      },
+      {
+        "answer": "1",
+        "count": 10,
+        "weightedCount": 8.448927190000001
+      }
+    ]
+  },
+  "f21A8": {
+    "label": "-\tStrafverfolgung",
+    "category": "Fokus Kameras",
+    "description": "-\tVerkehrssteuerung (f21A9)",
+    "values": [
+      "0",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 1,
+        "weightedCount": 0.85925666
+      },
+      {
+        "answer": "1",
+        "count": 10,
+        "weightedCount": 8.67065342
+      }
+    ]
+  },
+  "f21A9": {
+    "label": "-\tVerkehrssteuerung",
+    "category": "Fokus Kameras",
+    "description": "-\tFallen Sie Ihnen sonst noch Ziele ein, für die Sie eine Videoüberwachung akzeptieren würden: Sonstige: ….. [offene Frage] (f21A10) (Antwort in f21A13)",
+    "values": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "1",
+      "1",
+      "0",
+      "1",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 6,
+        "weightedCount": 5.14188974
+      },
+      {
+        "answer": "1",
+        "count": 5,
+        "weightedCount": 4.38802034
+      }
+    ]
+  },
+  "f21A10": {
+    "label": "-\tFallen Sie Ihnen sonst noch Ziele ein, für die Sie eine Videoüberwachung akzeptieren würden: Sonstige: ….. [offene Frage]  (Antwort in f21A13)",
+    "category": "Fokus Kameras",
+    "description": "-\tKeine davon (f21A12)",
+    "values": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 11,
+        "weightedCount": 9.529910080000002
+      }
+    ]
+  },
+  "f21A11": {
+    "label": "f21A11",
+    "category": "Unbekannt",
+    "description": null,
+    "values": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 11,
+        "weightedCount": 9.529910080000002
+      }
+    ]
+  },
+  "f21A12": {
+    "label": "-\tKeine davon",
+    "category": "Fokus Kameras",
+    "description": null,
+    "values": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 11,
+        "weightedCount": 9.529910080000002
+      }
+    ]
+  },
+  "f21A13": {
+    "label": "f21A13",
+    "category": "Unbekannt",
+    "description": null,
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "answers": []
+  },
+  "f22": {
+    "label": "Frage 22",
+    "category": "Fokus Kameras",
+    "description": "Bislang werden die aus Kameras im öffentlichen Raum gewonnenen Bilddaten in erster Linie von Kommunen und Unternehmen genutzt. Sollten Ihrer Ansicht nach diese Daten offen allen Bürgerinnen und Bürgern [INT: open data] zur Verfügung gestellt werden?",
+    "values": [
+      "2",
+      "1",
+      "2",
+      "1",
+      "1",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 3,
+        "weightedCount": 2.554972
+      },
+      {
+        "answer": "2",
+        "count": 8,
+        "weightedCount": 6.974938079999999
+      }
+    ]
+  },
+  "f23_question": {
+    "label": "Frage 23",
+    "category": "Erwartungen an Bürger:innen",
+    "description": "Kameras im öffentlichen Raum zeichnen alle Vorbeigehenden auf, somit können auch von Ihnen Aufnahmen entstehen . Ich lese Ihnen nun einige Aussagen zu Kameras im öffentlichen Raum vor. Inwieweit treffen diese Aussagen auf Sie zu? Bitte antworten mit Hilfe einer Skala von 1 = Immer/oft, 2 = gelegentlich oder 3 = selten/nie.",
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "answers": []
+  },
+  "f23A1_1": {
+    "label": "Ich halte geltende Regeln besonders sorgfältig ein",
+    "category": "Erwartungen an Bürger:innen",
+    "description": "Ich setze Hilfsmittel ein, um auf Kameras im öffentlichen Raum nicht erkannt zu werden [INT: bspw. Kappe,; Brillengestelle; Maske; Bemalung u.a.] (f23A2)\t1\t2\t3\t9",
+    "values": [
+      "2",
+      "3",
+      "2",
+      "2",
+      "1",
+      "1",
+      "9",
+      "2",
+      "1",
+      "1",
+      "3"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 4,
+        "weightedCount": 4.34322805
+      },
+      {
+        "answer": "2",
+        "count": 4,
+        "weightedCount": 3.1445650099999995
+      },
+      {
+        "answer": "3",
+        "count": 2,
+        "weightedCount": 1.56451053
+      },
+      {
+        "answer": "9",
+        "count": 1,
+        "weightedCount": 0.47760649
+      }
+    ]
+  },
+  "f23A2_1": {
+    "label": "Ich setze Hilfsmittel ein, um auf Kameras im öffentlichen Raum nicht erkannt zu werden",
+    "category": "Erwartungen an Bürger:innen",
+    "description": "Ich passe meine Körperhaltung an, um auf Kameras nicht erkannt zu werden. (f23A3)\t1\t2\t3\t9",
+    "values": [
+      "3",
+      "3",
+      "1",
+      "3",
+      "3",
+      "3",
+      "3",
+      "3",
+      "3",
+      "3",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 2,
+        "weightedCount": 1.42924129
+      },
+      {
+        "answer": "3",
+        "count": 9,
+        "weightedCount": 8.100668790000002
+      }
+    ]
+  },
+  "f23A3_1": {
+    "label": "Ich passe meine Körperhaltung an, um auf Kameras nicht erkannt zu werden.",
+    "category": "Erwartungen an Bürger:innen",
+    "description": "Ich vermeide Orte oder Wege mit Videoüberwachung. (f23A4)\t1\t2\t3\t9",
+    "values": [
+      "3",
+      "3",
+      "1",
+      "3",
+      "3",
+      "3",
+      "3",
+      "3",
+      "3",
+      "3",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 2,
+        "weightedCount": 1.42924129
+      },
+      {
+        "answer": "3",
+        "count": 9,
+        "weightedCount": 8.100668790000002
+      }
+    ]
+  },
+  "f23A4_1": {
+    "label": "Ich vermeide Orte oder Wege mit Videoüberwachung.",
+    "category": "Erwartungen an Bürger:innen",
+    "description": null,
+    "values": [
+      "3",
+      "2",
+      "3",
+      "3",
+      "3",
+      "3",
+      "3",
+      "3",
+      "3",
+      "3",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 1,
+        "weightedCount": 0.88284507
+      },
+      {
+        "answer": "2",
+        "count": 1,
+        "weightedCount": 0.68166546
+      },
+      {
+        "answer": "3",
+        "count": 9,
+        "weightedCount": 7.96539955
+      }
+    ]
+  },
+  "f24": {
+    "label": "Frage 24",
+    "category": "Erwartungen an Bürger:innen",
+    "description": "Vielleicht haben Sie im Zusammenhang mit Videoüberwachung schon einmal nachgedacht, ob es negative Konsequenzen für unbescholtene Bürger:innen haben könnte?",
+    "values": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "3"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 9,
+        "weightedCount": 7.71107919
+      },
+      {
+        "answer": "2",
+        "count": 1,
+        "weightedCount": 0.93598582
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 0.88284507
+      }
+    ]
+  },
+  "f24b_question": {
+    "label": "f24b_question",
+    "category": "Unbekannt",
+    "description": null,
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "answers": []
+  },
+  "f24bA1": {
+    "label": "-\tIm Berufsleben",
+    "category": "Erwartungen an Bürger:innen",
+    "description": "-\tIm öffentlichen Leben [INT in der Nachbarschaft, in der Gemeinde, Vereinen, Social Media] (f24bA2)",
+    "values": [
+      "0",
+      "0",
+      "1",
+      "0",
+      null,
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      null
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 6,
+        "weightedCount": 5.6060935899999995
+      },
+      {
+        "answer": "1",
+        "count": 3,
+        "weightedCount": 2.1049856
+      }
+    ]
+  },
+  "f24bA2": {
+    "label": "-\tIm öffentlichen Leben",
+    "category": "Erwartungen an Bürger:innen",
+    "description": "-\tIm Privatleben (f24bA3)",
+    "values": [
+      "1",
+      "0",
+      "1",
+      "1",
+      null,
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      null
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 1,
+        "weightedCount": 0.68166546
+      },
+      {
+        "answer": "1",
+        "count": 8,
+        "weightedCount": 7.02941373
+      }
+    ]
+  },
+  "f24bA3": {
+    "label": "-\tIm Privatleben",
+    "category": "Erwartungen an Bürger:innen",
+    "description": "-\tSonstige Lebensbereiche [Offene Frage] (f24bA4)",
+    "values": [
+      "0",
+      "1",
+      "0",
+      "0",
+      null,
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      null
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 7,
+        "weightedCount": 6.55180724
+      },
+      {
+        "answer": "1",
+        "count": 2,
+        "weightedCount": 1.15927195
+      }
+    ]
+  },
+  "f24bA4": {
+    "label": "-\tSonstige Lebensbereiche [Offene Frage]",
+    "category": "Erwartungen an Bürger:innen",
+    "description": "-\tIn keinen davon (f24bA5)",
+    "values": [
+      "0",
+      "0",
+      "0",
+      "0",
+      null,
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      null
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 9,
+        "weightedCount": 7.71107919
+      }
+    ]
+  },
+  "f24bA5": {
+    "label": "-\tIn keinen davon",
+    "category": "Erwartungen an Bürger:innen",
+    "description": "-\tWeiß nicht/ keine Angabe INT.: Bitte NICHT vorlesen (f24bA6)",
+    "values": [
+      "0",
+      "0",
+      "0",
+      "0",
+      null,
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      null
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 9,
+        "weightedCount": 7.71107919
+      }
+    ]
+  },
+  "f24bA6": {
+    "label": "-\tWeiß nicht/ keine Angabe INT.: Bitte NICHT vorlesen",
+    "category": "Erwartungen an Bürger:innen",
+    "description": "-\tAntwort auf Offene Frage (f24bA7)",
+    "values": [
+      "0",
+      "0",
+      "0",
+      "0",
+      null,
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      null
+    ],
+    "answers": [
+      {
+        "answer": "0",
+        "count": 9,
+        "weightedCount": 7.71107919
+      }
+    ]
+  },
+  "f24bA7": {
+    "label": "-\tAntwort auf Offene Frage",
+    "category": "Erwartungen an Bürger:innen",
+    "description": null,
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "answers": []
+  },
+  "f25": {
+    "label": "Frage 25",
+    "category": "Erwartungen an Bürger:innen",
+    "description": null,
+    "values": [
+      "1",
+      "2",
+      "2",
+      "2",
+      "2",
+      "3",
+      "1",
+      "1",
+      "1",
+      "2",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 4,
+        "weightedCount": 3.29613101
+      },
+      {
+        "answer": "2",
+        "count": 6,
+        "weightedCount": 5.15279618
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 1.08098289
+      }
+    ]
+  },
+  "s1": {
+    "label": "s1",
+    "category": "Unbekannt",
+    "description": null,
+    "values": [
+      "1",
+      "1",
+      "2",
+      "1",
+      "2",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 8,
+        "weightedCount": 6.96654515
+      },
+      {
+        "answer": "2",
+        "count": 3,
+        "weightedCount": 2.56336493
+      }
+    ]
+  },
+  "s2A1": {
+    "label": "s2A1",
+    "category": "Unbekannt",
+    "description": null,
+    "values": [
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht"
+    ],
+    "answers": [
+      {
+        "answer": "aus Datenschutzgr�nden gel�scht",
+        "count": 11,
+        "weightedCount": 9.529910080000002
+      }
+    ]
+  },
+  "s2neu": {
+    "label": "s2neu",
+    "category": "Unbekannt",
+    "description": null,
+    "values": [
+      "7",
+      "3",
+      "4",
+      "7",
+      "3",
+      "7",
+      "2",
+      "7",
+      "7",
+      "4",
+      "3"
+    ],
+    "answers": [
+      {
+        "answer": "2",
+        "count": 1,
+        "weightedCount": 0.47760649
+      },
+      {
+        "answer": "3",
+        "count": 3,
+        "weightedCount": 2.50049635
+      },
+      {
+        "answer": "4",
+        "count": 2,
+        "weightedCount": 1.7149791099999998
+      },
+      {
+        "answer": "7",
+        "count": 5,
+        "weightedCount": 4.83682813
+      }
+    ]
+  },
+  "S2b": {
+    "label": "S2b",
+    "category": "Unbekannt",
+    "description": null,
+    "values": [
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht",
+      "aus Datenschutzgr�nden gel�scht"
+    ],
+    "answers": [
+      {
+        "answer": "aus Datenschutzgr�nden gel�scht",
+        "count": 11,
+        "weightedCount": 9.529910080000002
+      }
+    ]
+  },
+  "s3A1": {
+    "label": "Frage S3",
+    "category": "Demografische Daten",
+    "description": "Wie viele Personen insgesamt, Sie selbst eingeschlossen, leben ständig in Ihrem Haushalt?",
+    "values": [
+      "4",
+      "2",
+      "2",
+      "3",
+      "3",
+      "2",
+      "1",
+      "1",
+      "3",
+      "2",
+      "3"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 2,
+        "weightedCount": 1.2791979
+      },
+      {
+        "answer": "2",
+        "count": 4,
+        "weightedCount": 3.47762746
+      },
+      {
+        "answer": "3",
+        "count": 4,
+        "weightedCount": 3.91382806
+      },
+      {
+        "answer": "4",
+        "count": 1,
+        "weightedCount": 0.85925666
+      }
+    ]
+  },
+  "s4A1": {
+    "label": "Frage S4",
+    "category": "Demografische Daten",
+    "description": "Wie viele Personen davon, Sie selbst mit eingerechnet, sind 16 Jahre und älter?",
+    "values": [
+      "4",
+      "2",
+      "2",
+      "3",
+      "2",
+      "2",
+      "1",
+      "1",
+      "3",
+      "2",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 2,
+        "weightedCount": 1.2791979
+      },
+      {
+        "answer": "2",
+        "count": 6,
+        "weightedCount": 5.29645835
+      },
+      {
+        "answer": "3",
+        "count": 2,
+        "weightedCount": 2.09499717
+      },
+      {
+        "answer": "4",
+        "count": 1,
+        "weightedCount": 0.85925666
+      }
+    ]
+  },
+  "s5": {
+    "label": "Frage S5",
+    "category": "Demografische Daten",
+    "description": "Welchen Schulabschluss haben Sie? Ich lese Ihnen zunächst alle Antwortmöglichkeiten vor. Sagen Sie mir dann, was auf Sie zutrifft.",
+    "values": [
+      "7",
+      "7",
+      "4",
+      "4",
+      "3",
+      "3",
+      "5",
+      "3",
+      "5",
+      "3",
+      "4"
+    ],
+    "answers": [
+      {
+        "answer": "3",
+        "count": 4,
+        "weightedCount": 3.9871430099999996
+      },
+      {
+        "answer": "4",
+        "count": 3,
+        "weightedCount": 2.36656201
+      },
+      {
+        "answer": "5",
+        "count": 2,
+        "weightedCount": 1.6352829400000002
+      },
+      {
+        "answer": "7",
+        "count": 2,
+        "weightedCount": 1.5409221199999998
+      }
+    ]
+  },
+  "s6": {
+    "label": "Frage S6",
+    "category": "Demografische Daten",
+    "description": "Welche der folgenden Tätigkeiten führen Sie derzeit aus?",
+    "values": [
+      "5",
+      "1",
+      "1",
+      "5",
+      "2",
+      "5",
+      "8",
+      "5",
+      "5",
+      "1",
+      "1"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 4,
+        "weightedCount": 3.27948964
+      },
+      {
+        "answer": "2",
+        "count": 1,
+        "weightedCount": 0.93598582
+      },
+      {
+        "answer": "5",
+        "count": 5,
+        "weightedCount": 4.83682813
+      },
+      {
+        "answer": "8",
+        "count": 1,
+        "weightedCount": 0.47760649
+      }
+    ]
+  },
+  "s6b": {
+    "label": "Frage S6b",
+    "category": "Demografische Daten",
+    "description": null,
+    "values": [
+      null,
+      "3",
+      "3",
+      null,
+      "3",
+      null,
+      null,
+      null,
+      null,
+      "2",
+      "2"
+    ],
+    "answers": [
+      {
+        "answer": "2",
+        "count": 2,
+        "weightedCount": 2.05142796
+      },
+      {
+        "answer": "3",
+        "count": 3,
+        "weightedCount": 2.1640474999999997
+      }
+    ]
+  },
+  "s7": {
+    "label": "Frage S7",
+    "category": "Demografische Daten",
+    "description": "Wie hoch ist etwa das Ihnen zur Verfügung stehende monatliche Haushaltsnettoeinkommen – also Gehälter und andere Einnahmen nach Abzug von Steuern und Sozialversicherungsbeiträgen?",
+    "values": [
+      "7",
+      "6",
+      "4",
+      "5",
+      "4",
+      "4",
+      "1",
+      "3",
+      "8",
+      "8",
+      "5"
+    ],
+    "answers": [
+      {
+        "answer": "1",
+        "count": 1,
+        "weightedCount": 0.47760649
+      },
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 0.80159141
+      },
+      {
+        "answer": "4",
+        "count": 3,
+        "weightedCount": 2.56336493
+      },
+      {
+        "answer": "5",
+        "count": 2,
+        "weightedCount": 1.82016579
+      },
+      {
+        "answer": "6",
+        "count": 1,
+        "weightedCount": 0.68166546
+      },
+      {
+        "answer": "7",
+        "count": 1,
+        "weightedCount": 0.85925666
+      },
+      {
+        "answer": "8",
+        "count": 2,
+        "weightedCount": 2.32625934
+      }
+    ]
+  },
+  "BLX": {
+    "label": "BLX",
+    "category": "Unbekannt",
+    "description": null,
+    "values": [
+      "5",
+      "3",
+      "11",
+      "11",
+      "12",
+      "8",
+      "5",
+      "9",
+      "14",
+      "9",
+      "5"
+    ],
+    "answers": [
+      {
+        "answer": "3",
+        "count": 1,
+        "weightedCount": 0.68166546
+      },
+      {
+        "answer": "5",
+        "count": 3,
+        "weightedCount": 2.2197082200000002
+      },
+      {
+        "answer": "8",
+        "count": 1,
+        "weightedCount": 1.08098289
+      },
+      {
+        "answer": "9",
+        "count": 2,
+        "weightedCount": 1.9701743
+      },
+      {
+        "answer": "11",
+        "count": 2,
+        "weightedCount": 1.4837169399999999
+      },
+      {
+        "answer": "12",
+        "count": 1,
+        "weightedCount": 0.93598582
+      },
+      {
+        "answer": "14",
+        "count": 1,
+        "weightedCount": 1.15767645
+      }
+    ]
+  },
+  "GGK7": {
+    "label": "GGK7",
+    "category": "Unbekannt",
+    "description": null,
+    "values": [
+      "5",
+      "4",
+      "7",
+      "7",
+      "4",
+      "2",
+      "5",
+      "2",
+      "7",
+      "3",
+      "3"
+    ],
+    "answers": [
+      {
+        "answer": "2",
+        "count": 2,
+        "weightedCount": 1.8825743
+      },
+      {
+        "answer": "3",
+        "count": 2,
+        "weightedCount": 2.05142796
+      },
+      {
+        "answer": "4",
+        "count": 2,
+        "weightedCount": 1.61765128
+      },
+      {
+        "answer": "5",
+        "count": 2,
+        "weightedCount": 1.3368631500000001
+      },
+      {
+        "answer": "7",
+        "count": 3,
+        "weightedCount": 2.64139339
+      }
+    ]
+  },
+  "GKBIK10": {
+    "label": "GKBIK10",
+    "category": "Unbekannt",
+    "description": null,
+    "values": [
+      "10",
+      "9",
+      "10",
+      "10",
+      "4",
+      "7",
+      "6",
+      "7",
+      "10",
+      "9",
+      "7"
+    ],
+    "answers": [
+      {
+        "answer": "4",
+        "count": 1,
+        "weightedCount": 0.93598582
+      },
+      {
+        "answer": "6",
+        "count": 1,
+        "weightedCount": 0.47760649
+      },
+      {
+        "answer": "7",
+        "count": 3,
+        "weightedCount": 2.76541937
+      },
+      {
+        "answer": "9",
+        "count": 2,
+        "weightedCount": 1.8502483499999998
+      },
+      {
+        "answer": "10",
+        "count": 4,
+        "weightedCount": 3.50065005
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --category-blue: #4477AA;
+  --category-red: #EE6677;
+  --category-green: #228833;
+  --category-yellow: #CCBB44;
+  --category-cyan: #66CCEE;
+  --category-purple: #AA3377;
+  --category-gray: #BBBBBB;
+  --color-black: #111827;
+  --color-white: #fdfdfd;
+  --color-gray-50: #f5f7fa;
+  --color-gray-200: #dbe2ea;
+  --color-gray-300: #c3ccd7;
+  --color-gray-500: #6b7280;
+  --color-gray-900: #1f2937;
+  --color-yellow: #f3d46b;
+  --20px: 1.25rem;
+  --22px: 1.375rem;
+  --24px: 1.5rem;
+  --28px: 1.75rem;
+  --36px: 2.25rem;
+  --48px: 3rem;
+  --story-bg: #0d1b2a;
+  --story-surface: #122030;
+  --story-on-bg: #ffffff;
+  --story-accent-wissen: #2DD4BF;
+  --story-accent-vertrauen: #E07B39;
+  --story-accent-kameras: #9B7FD4;
+  --story-accent-perspektive: #F5C842;
+  --story-accent-vertrauen-2: #c75e1f;
+  --story-accent-vertrauen-3: #a04a18;
+  --story-accent-vertrauen-4: #7a3811;
+  --story-accent-vertrauen-5: #4a2409;
+  --story-accent-kameras-2: #7a5fb5;
+  --story-accent-kameras-3: #5e4490;
+  --story-accent-kameras-4: #432e6b;
+  --story-accent-kameras-5: #2c1d48;
+  --story-accent-perspektive-2: #c4a030;
+  --story-accent-perspektive-3: #8a6f1e;
+  --story-accent-perspektive-4: #4a3a08;
+  --story-accent-perspektive-5: #2a2005;
+  --story-accent-persona-2: #7a6010;
+  --story-accent-personas: #e6edf3;
+}

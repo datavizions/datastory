@@ -1,0 +1,52 @@
+{
+  "category": {
+    "blue": "#4477AA",
+    "red": "#EE6677",
+    "green": "#228833",
+    "yellow": "#CCBB44",
+    "cyan": "#66CCEE",
+    "purple": "#AA3377",
+    "gray": "#BBBBBB"
+  },
+  "color": {
+    "black": "#111827",
+    "white": "#fdfdfd",
+    "gray-50": "#f5f7fa",
+    "gray-200": "#dbe2ea",
+    "gray-300": "#c3ccd7",
+    "gray-500": "#6b7280",
+    "gray-900": "#1f2937",
+    "yellow": "#f3d46b"
+  },
+  "": {
+    "20px": "1.25rem",
+    "22px": "1.375rem",
+    "24px": "1.5rem",
+    "28px": "1.75rem",
+    "36px": "2.25rem",
+    "48px": "3rem"
+  },
+  "story": {
+    "bg": "#0d1b2a",
+    "surface": "#122030",
+    "on-bg": "#ffffff",
+    "accent-wissen": "#2DD4BF",
+    "accent-vertrauen": "#E07B39",
+    "accent-kameras": "#9B7FD4",
+    "accent-perspektive": "#F5C842",
+    "accent-vertrauen-2": "#c75e1f",
+    "accent-vertrauen-3": "#a04a18",
+    "accent-vertrauen-4": "#7a3811",
+    "accent-vertrauen-5": "#4a2409",
+    "accent-kameras-2": "#7a5fb5",
+    "accent-kameras-3": "#5e4490",
+    "accent-kameras-4": "#432e6b",
+    "accent-kameras-5": "#2c1d48",
+    "accent-perspektive-2": "#c4a030",
+    "accent-perspektive-3": "#8a6f1e",
+    "accent-perspektive-4": "#4a3a08",
+    "accent-perspektive-5": "#2a2005",
+    "accent-persona-2": "#7a6010",
+    "accent-personas": "#e6edf3"
+  }
+}
