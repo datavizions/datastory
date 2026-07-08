@@ -64,7 +64,7 @@
     <StatBlock
         stat={`${f2A1} %`}
         text={`der Befragten nehmen Sensoren im Alltag wahr, sogar ${f2A2} % können einen konkreten Standort benennen.`}
-        source={`Quelle: ÖFIT 2021, f2${f2Answered ? ` · n = ${f2Answered}` : ''}`}
+        source={`Quelle: ÖFIT 2021${f2Answered ? ` · Anzahl der Befragten: ${f2Answered}` : ''}`}
     />
 
     <!--   <p class="body-text">
@@ -79,7 +79,8 @@
         Kameras sind der bekannteste Sensortyp. Weniger bekannt sind Umwelt- und Prozesssensoren, obwohl diese in vielen Kommunen bereits flächendeckend eingesetzt werden.
     </p>
 
-    <ChartBlock title="Bekanntheitsgrad nach Sensortyp" code="f3">
+    <!-- code="f3" -->
+    <ChartBlock title="Bekanntheitsgrad nach Sensortyp">
         <BarChart items={charts.sensortypen.items} note = {charts.sensortypen.note} n={charts.sensortypen.n} color="var(--story-accent-wissen)" />
     </ChartBlock>
 <!-- 

@@ -25,14 +25,9 @@
         <div class="stat-card-title">{title}</div>
     {/if}
 
-    {#if description}
-         <div class="stat-card-description">
-            {description}
-        </div>
-    {/if}
-    {#if n}
+    {#if description || n}
         <div class="stat-card-note">
-            (n = {n})
+            {description}{description && n ? ' · ' : ''}{#if n}Anzahl der Befragten: {n}{/if}
         </div>
     {/if}
 </div>
@@ -58,15 +53,11 @@
         font-variant-numeric: tabular-nums;
     }
 
-    .stat-card-description {
-        font-size: 0.8em;
-        color: var(--color-gray);
-    }
-
     .stat-card-note {
-        font-size: 0.7em;
-        margin-top: 0.5em;
-        color: var(--color-gray);
+        font-family: var(--font-sans);
+        font-size: 0.78rem;
+        margin-top: 0.6em;
+        color: var(--figure-soft-color, color-mix(in srgb, var(--story-on-bg, #111) 35%, transparent));
     }
 
 </style>

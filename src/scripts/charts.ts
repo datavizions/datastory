@@ -38,7 +38,8 @@ export function getColumns(
             if (v === null) return
             const k = String(v)
             counts[k] = (counts[k] || 0) + 1
-            const w = typeof rows[i]?.Gewicht === 'number' && rows[i].Gewicht > 0 ? rows[i].Gewicht : 1
+            const g = rows[i]?.Gewicht
+            const w = typeof g === 'number' && g > 0 ? g : 1
             weightedCounts[k] = (weightedCounts[k] || 0) + w
         })
         result[key] = {
@@ -306,7 +307,7 @@ export function mapCharts(cols: Cols) {
         vertrauenbetreiber: {
             type: 'distribution',
             title: 'Vertrauen in öffentliche vs private Betreiber',
-            note: '72 % der Befragten äußerten sich zu dieser Frage (f11b = 1).',
+            note: '72 % der Befragten äußerten sich zu dieser Frage.',
             description: 'Anteil: trifft voll zu + trifft eher zu',
             n: rawTotalSafe(col('f11b')),
             items: distribution(col('f11b'), {

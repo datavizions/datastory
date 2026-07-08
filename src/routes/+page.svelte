@@ -19,7 +19,6 @@
 	next="/story"
 	btnLabel="Story starten"
 >
-	<p class="kicker">ÖFIT · FRAUNHOFER FOKUS · 2021</p>
 	<span class="badge">Datenstory</span>
 	<h1>Willkommen</h1>
 	<p class="description">
@@ -33,10 +32,10 @@
 				<span class="content-table-description">Auf den folgenden Seiten haben Sie die Möglichkeit Ergebnisse einer Umfrage zu Sensoren im öffentlichen Raum zu entdecken.</span>
 			</li>
 			<li>
-				<span class="content-table-description">Die gezeigten Daten kommen aus einer Studie des Fraunhofer ÖFIT (Kompetenzzentrum öffentliche IT).</span>
+				<span class="content-table-description">Die Umfrage wurde vom Fraunhofer Kompetenzzentrum öffentliche IT (ÖFIT) durchgeführt.</span>
 			</li>
 			<li>
-				<span class="content-table-description">Diese Anwendung wird im Rahmen einer Masterarbeit an der htw berlin entwickelt und wird derzeit getestet.</span>
+				<span class="content-table-description">Diese Anwendung wird im Rahmen einer Masterarbeit an der htw berlin entwickelt und derzeit getestet.</span>
 			</li>
 			
 			<li>
@@ -77,7 +76,7 @@
 		font-size: 2rem;
 		font-weight: 700;
 		color: var(--story-on-bg);
-		margin: 0 0 1rem;
+		margin: 0 0 0.5rem;
 	}
 
 	:global(.section-content .description) {

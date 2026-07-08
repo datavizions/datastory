@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { base } from '$app/paths'
+    import { resolve } from '$app/paths'
     import type {Snippet} from 'svelte'
 
     let {
@@ -15,8 +15,6 @@
         eyebrow?: string;
         children?: Snippet;
     } = $props();
-
-    const nextHref = $derived(next && next.startsWith('/') ? `${base}${next}` : next)
     
 </script>
 
@@ -30,7 +28,7 @@
 
     {#if next}
     <div class="section-footer"> 
-        <a href={nextHref} class="section-next">{btnLabel}</a>
+        <a href={resolve(next)} class="section-next">{btnLabel}</a>
     </div>
     {/if}
 </div>
@@ -41,6 +39,8 @@
         flex-direction: column;
         gap: 1rem;
         padding: 2rem 1rem;
+        min-height: 100dvh;
+        box-sizing: border-box;
         background: var(--story-bg);
         color: var(--story-on-bg);
     }

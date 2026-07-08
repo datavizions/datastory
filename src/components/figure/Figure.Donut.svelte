@@ -1,5 +1,5 @@
 <script lang="ts">
-    import {arc, pie} from 'd3-shape'
+    import {arc, pie, type PieArcDatum} from 'd3-shape'
 
     interface Item {
         answer: string;
@@ -14,7 +14,7 @@
         note = '',
         n = 0,
         colors = ['var(--color-primary)'],
-        size = 320,
+        size = 352,
         inner = 0.5
         }: {
         items: Item[];
@@ -30,6 +30,11 @@
 
     const chartSize = $derived(layoutWidth > 0 ? Math.min(size, layoutWidth) : size);
 
+    // extra space
+    const pad = 26;
+    const svgSize = $derived(chartSize + pad * 2);
+    const center = $derived(svgSize / 2);
+
     const r = $derived(chartSize / 2);
     const innerR = $derived(r * inner);
     const labelR = $derived((innerR + r) / 2);
@@ -39,10 +44,10 @@
 
     const visibleItems = $derived(items.filter(i => i.count > 0));
 
-    const arcs = $derived(arc<any>().innerRadius(innerR).outerRadius(r).cornerRadius(5)
+    const arcs = $derived(arc<PieArcDatum<Item>>().innerRadius(innerR).outerRadius(r).cornerRadius(5)
     );
-    const labelArc = $derived(arc<any>().innerRadius(labelR).outerRadius(labelR));
-    const outerLabelArc = $derived(arc<any>().innerRadius(outerLabelR).outerRadius(outerLabelR));
+    const labelArc = $derived(arc<PieArcDatum<Item>>().innerRadius(labelR).outerRadius(labelR));
+    const outerLabelArc = $derived(arc<PieArcDatum<Item>>().innerRadius(outerLabelR).outerRadius(outerLabelR));
 
     const slices = $derived(pies(visibleItems));
 
@@ -54,9 +59,9 @@
     {/if}
 
     <div class="donut-layout" bind:clientWidth={layoutWidth}>
-        <svg width={chartSize} height={chartSize} aria-label={title}>
-            <g transform="translate({r}, {r})">
-            {#each slices as slice, i }
+        <svg width={svgSize} height={svgSize} aria-label={title}>
+            <g transform="translate({center}, {center})">
+            {#each slices as slice, i (slice.data.answer)}
             <path class="donut-slice" d={arcs(slice)} fill={colors[i % colors.length]} stroke="var(--color-background)" stroke-width="1"></path>
             <title>{slice.data.label}: {slice.data.percent}% ({slice.data.count})</title>
             {@const inside = slice.data.percent >= 6}
@@ -78,7 +83,7 @@
         </svg>  
 
         <ul class="donut-legend">
-            {#each visibleItems as item, i}
+            {#each visibleItems as item, i (item.answer)}
             <li class="donut-legend-item">
                 <span class="donut-legend-swatch" style="background: {colors[i % colors.length]}"></span>
                 <span class="donut-legend-label">{item.label}</span>
@@ -92,7 +97,7 @@
 
     {#if note || n}
         <p class="donut-note">
-            {#if n}n = {n} (Anzahl der Befragten){note ? ' · ' : ''}{/if}{note}
+            {#if n}Anzahl der Befragten: {n}{note ? ' · ' : ''}{/if}{note}
         </p>
     {/if}
 </div>
@@ -113,6 +118,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
+        padding-top: 1.25rem;
     }
 
     .donut-title {
@@ -164,7 +170,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 0.55rem;
+        gap: 0.25rem;
         width: 100%;
         max-width: 32rem;
         margin-inline: auto;
@@ -214,7 +220,7 @@
 
     @media (min-width: 720px) {
         .donut-layout {
-            gap: 0.75rem;
+            gap: 0.35rem;
         }
     }
 

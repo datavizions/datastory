@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { base } from '$app/paths';
+    import { resolve } from '$app/paths';
     import Section from "$story/Story.Section.svelte";
     import charts from "$data/charts.json";
 
@@ -55,27 +55,27 @@
             <ul>
                 <li>
                     <span class="dot" style="background: var(--story-accent-wissen)"></span>
-                    <a href={`${base}/story/wissen`}><strong>Wissen</strong></a>
+                    <a href={resolve('/story/wissen')}><strong>Wissen</strong></a>
                     <span class="content-table-description content-table-description--right">Was kennen Bürger:innen?</span>
                 </li>
                 <li>
                     <span class="dot" style="background: var(--story-accent-vertrauen)"></span>
-                    <a href={`${base}/story/vertrauen`}><strong>Vertrauen</strong></a>
+                    <a href={resolve('/story/vertrauen')}><strong>Vertrauen</strong></a>
                         <span class="content-table-description content-table-description--right">Wem wird vertraut?</span>
                 </li>
                 <li>
                     <span class="dot" style="background: var(--story-accent-kameras)"></span>
-                    <a href={`${base}/story/kameras`}><strong>Fokus Kameras</strong></a>
-                        <span class="content-table-description content-table-description--right">Sicherheit oder Kontrolle</span>
+                    <a href={resolve('/story/kameras')}><strong>Fokus Kameras</strong></a>
+                        <span class="content-table-description content-table-description--right">Sicherheit oder Kontrolle?</span>
                 </li>
                 <li>
                     <span class="dot" style="background: var(--story-accent-personas)"></span>
-                    <a href={`${base}/story/personas`}><strong>Persona-Filter</strong></a>
+                    <a href={resolve('/story/personas')}><strong>Personas</strong></a>
                         <span class="content-table-description content-table-description--right">Vier Perspektiven erkunden</span>
                 </li>
                 <li>
                     <span class="dot" style="background: var(--story-accent-perspektive)"></span>
-                    <a href={`${base}/story/perspektive`}><strong>Persönliche Filter</strong></a>
+                    <a href={resolve('/story/perspektive')}><strong>Eigene Ansichten</strong></a>
                         <span class="content-table-description content-table-description--right">Eigene Gruppe auswählen</span>
                 </li>
             </ul>
@@ -108,7 +108,7 @@
             font-size: 2rem;
             font-weight: 700;
             color: var(--story-on-bg);
-            margin-bottom: 0 0 1rem;
+            margin-bottom: 0 0 0.5rem;
         }
 
         .description {

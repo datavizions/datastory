@@ -3,7 +3,8 @@ import rows from "../../data/rows.json";
 import allCols from "../../data/columns.json";
 import { getColumns, mapCharts } from "../charts";
 
-type Row = Record<string, any>;
+type Row = Record<string, unknown>;
+type ColMeta = { label: string; category?: string; description?: string | null };
 
 function filterRows(source: Row[], filters: Record<string, string>) {
   const activeKeys = Object.keys(filters).filter((k) => filters[k] != null);
@@ -40,9 +41,9 @@ describe("story filtering in survey data", () => {
       Object.entries(allCols).map(([k, v]) => [
         k,
         {
-          label: (v as any).label,
-          category: (v as any).category,
-          description: (v as any).description,
+          label: (v as ColMeta).label,
+          category: (v as ColMeta).category,
+          description: (v as ColMeta).description,
         },
       ])
     );
@@ -56,9 +57,8 @@ describe("story filtering in survey data", () => {
     //checks percentage computation (f2A1 = answer 1)
     const expectedN = countNonNull(matched, "f2A1") - countAnswer(matched, "f2A5", "1");
     const expectedCount = countAnswer(matched, "f2A1", "1");
-    const expectedPercent = expectedN > 0 ? Math.round((expectedCount / expectedN) * 100) : 0;
 
-    const f2A1Item = charts.wahrnehmung.items.find((i: any) => i.code === "f2A1");
+    const f2A1Item = charts.wahrnehmung.items.find((i) => i.code === "f2A1");
     expect(f2A1Item).toBeDefined();
     expect(charts.wahrnehmung.n).toBe(expectedN);
     expect(f2A1Item.count).toBe(expectedCount);
@@ -75,9 +75,9 @@ describe("story filtering in survey data", () => {
       Object.entries(allCols).map(([k, v]) => [
         k,
         {
-          label: (v as any).label,
-          category: (v as any).category,
-          description: (v as any).description,
+          label: (v as ColMeta).label,
+          category: (v as ColMeta).category,
+          description: (v as ColMeta).description,
         },
       ])
     );
@@ -99,9 +99,9 @@ describe("story filtering in survey data", () => {
       Object.entries(allCols).map(([k, v]) => [
         k,
         {
-          label: (v as any).label,
-          category: (v as any).category,
-          description: (v as any).description,
+          label: (v as ColMeta).label,
+          category: (v as ColMeta).category,
+          description: (v as ColMeta).description,
         },
       ])
     );

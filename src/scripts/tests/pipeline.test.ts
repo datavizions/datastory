@@ -3,7 +3,7 @@ import path from 'path'
 import {describe, expect, it} from 'vitest'
 
 describe('pipeline', ()=> {
-    it('survey data is succesfully parsed and written to files'), async () => {
+    it('survey data is succesfully parsed and written to files', async () => {
         await import('../pipeline')
 
         const rowFile = path.join(process.cwd(), 'src', 'data', 'rows.json')
@@ -21,5 +21,5 @@ describe('pipeline', ()=> {
             category: 'Einstellung zu Technik'
         })
         
-    }
+    })
 })

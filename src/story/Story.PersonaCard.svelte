@@ -1,4 +1,5 @@
 <script lang="ts">
+    /* eslint-disable svelte/no-unused-props */
     type Persona = {
         id: string;
         name: string;

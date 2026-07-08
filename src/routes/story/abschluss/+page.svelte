@@ -1,12 +1,6 @@
 <script lang="ts">
-  import { base } from '$app/paths'
+  import { resolve } from '$app/paths'
     import Section from '$story/Story.Section.svelte'
-    import charts from '$data/charts.json'
-
-    const f2A1 = charts.wahrnehmung.items.find(item => item.code === 'f2A1')?.percent ?? 0;
-    const percentPublic = (charts.vertrauenbetreiber.items.find(item => item.answer === '3')?.percent ?? 0)
-                        + (charts.vertrauenbetreiber.items.find(item => item.answer === '4')?.percent ?? 0);
-    const percentSicherheit = charts.kamerabedeutung.items.find(item => item.answer === '1')?.percent ?? 0;
 </script>
 
 <svelte:head>
@@ -26,7 +20,7 @@
   <div class="summary-card" style="border-color:var(--story-accent-vertrauen)">
     <p class="summary-card-topic" style="color:var(--story-accent-vertrauen)">Vertrauen</p>
     <p class="summary-card-text">
-      Private Betreiber bekommen mehr Vertrauen.
+      Öffentliche Betreiber bekommen mehr Vertrauen.
       Transparenz und Anonymisierung erhöhen die Akzeptanz deutlich.
     </p>
   </div>
@@ -50,24 +44,36 @@
   <div class="source-box">
     <p class="source-box-title">Datenquelle</p>
     <p class="source-box-text">
-      ÖFIT (2021/2023): Umfrage zur Wahrnehmung von IT-Sensoren im öffentlichen Raum.
+      ÖFIT 2021: Umfrage zur Wahrnehmung von IT-Sensoren im öffentlichen Raum.
       Fraunhofer FOKUS, Berlin.<br>
-      Anzahl der Befragten ca. 1.000 Personen ab 16 Jahren, Deutschland.
+      Anzahl der Befragten 1.004 Personen ab 16 Jahren, Deutschland.
+      Die Umfrage unterliegt der CC BY 4.0 Lizenz.
     </p>
     <div class="source-tags">
       <span class="source-tag">ÖFIT</span>
     </div>
   </div>
 
+  <div class="source-box">
+    <p class="source-box-title">Personas</p>
+    <p class="source-box-text">
+      Die dargestellten Personas orientieren sich teilweise an den demografischen Merkmalen der Befragten.<br>
+      Die drei gewählten Merkmale sind Alter, Geschlecht und Tätigkeit. Alle weiteren Eigenschaften sind rein fiktiv und dienen zur Veranschaulichung der Umfragedaten.
+    </p>
+    <div class="source-tags">
+    <!--  <span class="source-tag">PERSONAS</span>-->
+    </div>
+  </div>
+
   <!-- Navigation -->
   <div class="nav-links">
-    <a href={`${base}/story/perspektive`} class="nav-link" style="color:var(--story-accent-perspektive);border-color:color-mix(in srgb, var(--story-accent-perspektive) 20%, transparent)">
+    <a href={resolve('/story/perspektive')} class="nav-link" style="color:var(--story-accent-perspektive);border-color:color-mix(in srgb, var(--story-accent-perspektive) 20%, transparent)">
       Eigene Perspektive erkunden
     </a>
-    <a href={`${base}/story/personas`} class="nav-link" style="color:var(--story-accent-wissen);border-color:color-mix(in srgb, var(--story-accent-wissen) 20%, transparent)">
+    <a href={resolve('/story/personas')} class="nav-link" style="color:var(--story-accent-wissen);border-color:color-mix(in srgb, var(--story-accent-wissen) 20%, transparent)">
       Personas vergleichen
     </a>
-    <a href={`${base}/story`} class="nav-link" style="color:color-mix(in srgb, var(--story-on-bg) 40%, transparent);border-color:color-mix(in srgb, var(--story-on-bg) 10%, transparent)">
+    <a href={resolve('/story')} class="nav-link" style="color:color-mix(in srgb, var(--story-on-bg) 40%, transparent);border-color:color-mix(in srgb, var(--story-on-bg) 10%, transparent)">
       Zum Anfang
     </a>
      <a href="https://datavizions.limesurvey.net/176749?lang=de&newtest=Y" class="nav-link nav-link-questionnaire">

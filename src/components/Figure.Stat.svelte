@@ -32,7 +32,7 @@
     {/if}
     {#if n}
         <div class="stat-card-note">
-            (n = {n})
+            Anzahl der Befragten: {n}
         </div>
     {/if}
 </div>

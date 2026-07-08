@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { base } from "$app/paths";
+	import { resolve } from "$app/paths";
 	import { onMount } from "svelte";
 	import Section from "$story/Story.Section.svelte";
 	import ChartBlock from "$story/Story.ChartBlock.svelte";
@@ -122,7 +122,7 @@
 		<span>Eigenschaften ausgewählt</span>
 	</div>
 
-	{#each groups as group}
+	{#each groups as group (group.key)}
 		<div class="group-block">
 			<p class="group-label">{group.label}</p>
 			{#if group.key === "s1"}
@@ -144,7 +144,7 @@
 				{/if}
 			{/if}
 			<div class="pill-row">
-				{#each group.options as option}
+				{#each group.options as option (option.value)}
 					<button
 						type="button"
 						class="pill"
@@ -162,7 +162,7 @@
 		<div class="settings-box">
 			<p class="settings-title">Deine Einstellungen</p>
 			<div class="settings-tags">
-				{#each selectedSettings as setting}
+				{#each selectedSettings as setting (setting)}
 					<span class="settings-tag">{setting}</span>
 				{/each}
 			</div>
@@ -171,7 +171,8 @@
 		{#if n > 0}
 			<p class="results-label">ERGEBNISSE FÜR DEINE GRUPPE</p>
 
-			<ChartBlock title="Einstellung zu Sensoren allgemein" code="f1">
+			<!-- code="f1" -->
+			<ChartBlock title="Einstellung zu Sensoren allgemein">
 				<BarChart
 					items={charts.einstellungtechnik.items}
 					n={charts.einstellungtechnik.n}
@@ -179,7 +180,8 @@
 				/>
 			</ChartBlock>
 
-			<ChartBlock title="Überwachungsgefühl" code="f6A3">
+			<!-- code="f6A3" -->
+			<ChartBlock title="Überwachungsgefühl">
 				<Donut
 					items={charts.befindlichkeit.items.find((i: { code: string; distribution: { answer: string; label: string; count: number; percent: number }[] }) => i.code === 'f6A3_1')?.distribution ?? []}
 					n={charts.befindlichkeit.n}
@@ -190,7 +192,7 @@
 						"#4e4937",
 						"#2f312f",
 					]}
-					size={300}
+					size={330}
 				/>
 			</ChartBlock>
 <!-- 
@@ -202,7 +204,8 @@
 				/>
 			</ChartBlock> -->
 
-			<ChartBlock title="Zustimmung Videoüberwachung nach Ort" code="f20">
+			<!-- code="f20" -->
+			<ChartBlock title="Zustimmung Videoüberwachung nach Ort">
 				<BarChart
 					items={charts.kamerazustimmungort.items}
 					n={charts.kamerazustimmungort.n}
@@ -228,7 +231,7 @@
 
 		<div class="actions">
 			<button type="button" class="action-secondary" onclick={resetToFilters}>Einstellungen ändern</button>
-			<a class="action-primary" href={`${base}/story/abschluss`}>Zum Abschluss</a>
+			<a class="action-primary" href={resolve('/story/abschluss')}>Zum Abschluss</a>
 		</div>
 	{/if}
 </Section>

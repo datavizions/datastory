@@ -33,7 +33,7 @@ describe('charts functionalities', () => {
                 {answer: '1', count: 2 },
                 {answer: '2', count: 1 },
             ],
-        }
+        } as unknown as Col
           
 
         expect(percentage(col, ['1'])).toBe(67)
@@ -48,7 +48,7 @@ describe('charts functionalities', () => {
             answers: [
                 {answer: '1', count: 1 }
             ],
-        }
+        } as unknown as Col
           
 
         expect(distribution(col, { '1': '', '2': ''})).toEqual([
@@ -65,7 +65,7 @@ describe('charts functionalities', () => {
                 { answer: '2', count: 2 },
                 { answer: '9', count: 1 },
             ],
-        }
+        } as unknown as Col
 
         expect(distribution(col, { '1': 'A', '2': 'B', '9': 'NA' }, ['9'])).toEqual([
             { answer: '2', label: 'B', count: 2, percent: 67 },
@@ -135,12 +135,10 @@ describe('charts functionalities', () => {
         }
 
         const charts = mapCharts(cols)
-        const f2A1Item = charts.wahrnehmung.items.find((item: { code: string; percent: number }) => item.code === 'f2A1')
-        const f2A5Item = charts.wahrnehmung.items.find((item: { code: string; percent: number }) => item.code === 'f2A5')
+        const f2A1Item = charts.wahrnehmung.items.find((item) => item.code === 'f2A1')
+        const f2A5Item = charts.wahrnehmung.items.find((item) => item.code === 'f2A5')
 
         expect(charts.wahrnehmung.n).toBe(3)
-        expect(f2A1Item).toBeDefined()
-        expect(f2A5Item).toBeDefined()
         expect(f2A1Item?.percent).toBe(67)
         expect(f2A5Item?.percent).toBe(33)
     })
@@ -234,7 +232,7 @@ describe('charts functionalities', () => {
     expect(charts.überwachungsgefühl.type).toBe('distribution')
     expect(charts.überwachungsgefühl.description).toBe('Anteil: trifft voll zu + trifft eher zu')
 
-    const f6Dist = charts.befindlichkeit.items.find((i: { code: string; distribution: Array<{ answer: string }> }) => i.code === 'f6A3_1')?.distribution ?? []
-    expect(f6Dist.some((d: { answer: string }) => d.answer === '9')).toBe(false)
+    const f6Dist = charts.befindlichkeit.items.find((i) => i.code === 'f6A3_1')?.distribution ?? []
+        expect(f6Dist.some((d) => d.answer === '9')).toBe(false)
     })
 })
