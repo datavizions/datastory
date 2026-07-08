@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { barList, distribution, mapCharts, percentage, getColumns, type Cols } from "../charts";
+import { barList, distribution, mapCharts, percentage, getColumns, type Col, type Cols } from "../charts";
 
 describe('charts functionalities', () => {
     it('gets answers and perentages from rows', () => {
@@ -32,7 +32,7 @@ describe('charts functionalities', () => {
                 {answer: '1', count: 2 },
                 {answer: '2', count: 1 },
             ],
-        } as any
+        } as unknown as Col
           
 
         expect(percentage(col, ['1'])).toBe(67)
@@ -46,7 +46,7 @@ describe('charts functionalities', () => {
             answers: [
                 {answer: '1', count: 1 }
             ],
-        } as any
+        } as unknown as Col
           
 
         expect(distribution(col, { '1': '', '2': ''})).toEqual([
@@ -62,7 +62,7 @@ describe('charts functionalities', () => {
                 { answer: '2', count: 2 },
                 { answer: '9', count: 1 },
             ],
-        } as any
+        } as unknown as Col
 
         expect(distribution(col, { '1': 'A', '2': 'B', '9': 'NA' }, ['9'])).toEqual([
             { answer: '2', label: 'B', count: 2, percent: 67 },
@@ -87,7 +87,7 @@ describe('charts functionalities', () => {
             ],
             },
            
-        } as any
+        }
           
 // check code label mapping 
         expect(barList(col, [ 'missing', 'f2A1', 'f2A2'])).toEqual([
@@ -129,15 +129,15 @@ describe('charts functionalities', () => {
                     { answer: '1', count: 1 },
                 ],
             },
-        } as any
+        }
 
         const charts = mapCharts(cols)
-        const f2A1Item = charts.wahrnehmung.items.find((item: any) => item.code === 'f2A1')
-        const f2A5Item = charts.wahrnehmung.items.find((item: any) => item.code === 'f2A5')
+        const f2A1Item = charts.wahrnehmung.items.find((item) => item.code === 'f2A1')
+        const f2A5Item = charts.wahrnehmung.items.find((item) => item.code === 'f2A5')
 
         expect(charts.wahrnehmung.n).toBe(3)
-        expect(f2A1Item.percent).toBe(67)
-        expect(f2A5Item.percent).toBe(33)
+        expect(f2A1Item?.percent).toBe(67)
+        expect(f2A5Item?.percent).toBe(33)
     })
 
     it('other multiple-response charts exclude k.A. from denominator', () => {
@@ -162,7 +162,7 @@ describe('charts functionalities', () => {
             f10A3: { label: 'c', values: ['0', '0', '0', '0'], answers: [{ answer: '0', count: 4 }] },
             f10A5: { label: 'd', values: ['0', '0', '1', '0'], answers: [{ answer: '0', count: 3 }, { answer: '1', count: 1 }] },
             f10A6: { label: 'ka', values: ['0', '0', '0', '1'], answers: [{ answer: '0', count: 3 }, { answer: '1', count: 1 }] },
-        } as any
+        }
 
         const charts = mapCharts(cols)
 
@@ -199,7 +199,7 @@ describe('charts functionalities', () => {
     expect(charts.überwachungsgefühl.type).toBe('distribution')
     expect(charts.überwachungsgefühl.description).toBe('Anteil: trifft voll zu + trifft eher zu')
 
-    const f6Dist = charts.befindlichkeit.items.find((i: any) => i.code === 'f6A3_1')?.distribution ?? []
-    expect(f6Dist.some((d: any) => d.answer === '9')).toBe(false)
+    const f6Dist = charts.befindlichkeit.items.find((i) => i.code === 'f6A3_1')?.distribution ?? []
+        expect(f6Dist.some((d) => d.answer === '9')).toBe(false)
     })
 })

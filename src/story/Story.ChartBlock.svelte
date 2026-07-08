@@ -3,12 +3,10 @@
 
     let {
         title = '',
-        code = '',
         placeholder = false,
         children
     }: {
         title?: string;
-        code?: string;
         placeholder?: boolean;
         children?: Snippet; 
     } = $props();
@@ -17,9 +15,6 @@
 <div class="chart-block">
     <div class="chart-block-header">
         <span class="chart-block-title">{title}</span>
-        {#if false && code}
-            <span class="chart-block-badge">{code}</span>
-        {/if}
     </div>
     <div class="chart-block-body">
         {#if children}

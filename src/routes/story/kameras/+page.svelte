@@ -39,7 +39,8 @@
     </div>
 
     <!-- oder title = {charts.sensortyp.title} -->
-    <ChartBlock title="Videoüberwachung: Sicherheit oder Eingriff?" code="f18">
+    <!-- code="f18" -->
+    <ChartBlock title="Videoüberwachung: Sicherheit oder Eingriff?">
         <Donut items={charts.kamerabedeutung.items} n={charts.kamerabedeutung.n} colors={['#9B7FD4', '#7a5fb5', '#5e4490', '#432e6b', '#2c1d48']} />
     </ChartBlock>
 <!-- 
@@ -58,7 +59,8 @@
         Obwohl viele der Befragten Videoüberwachung eher mit Sicherheit verbinden, geht etwa jede fünfte Person Orten mit Videoüberwachung aus dem Weg.
     </p>
 
-    <ChartBlock title="Verhaltensanpassung" code="f19/f23">
+    <!-- code="f19/f23" -->
+    <ChartBlock title="Verhaltensanpassung">
         <Stat {...charts.verhaltensanpassung} color="#9B7FD4" />
     </ChartBlock>
 </Section>

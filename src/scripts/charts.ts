@@ -1,5 +1,3 @@
-import { answers } from "./repsonses"
-
 export interface Answers {
     answer: string
     count: number
@@ -11,7 +9,7 @@ export interface Col {
     label: string
     category?: string
     description?: string | null
-    values: any[]
+    values: unknown[]
     answers: Answers[]
 }
 
@@ -26,7 +24,7 @@ export type ColsMetadata = Record<string, {
 // get columns from filtered rows
 
 export function getColumns(
-    rows: Record<string, any>[],
+    rows: Record<string, unknown>[],
     meta: ColsMetadata
 ): Cols {
     const result: Cols = {}
@@ -40,7 +38,8 @@ export function getColumns(
             if (v === null) return
             const k = String(v)
             counts[k] = (counts[k] || 0) + 1
-            const w = typeof rows[i]?.Gewicht === 'number' && rows[i].Gewicht > 0 ? rows[i].Gewicht : 1
+            const g = rows[i]?.Gewicht
+            const w = typeof g === 'number' && g > 0 ? g : 1
             weightedCounts[k] = (weightedCounts[k] || 0) + w
         })
         result[key] = {
@@ -60,9 +59,6 @@ export function getColumns(
 // chart builders for values based on columns (average/median/percentage of all surveyees) or on rows for individual data 
 
 // unweighted: used only for n display
-function rawTotal(col: Col): number {
-    return col.values.filter(v => v !== null).length
-}
 function rawTotalSafe(col: Col | undefined): number {
     return col ? col.values.filter(v => v !== null).length : 0
 }
@@ -222,7 +218,7 @@ export const Zustimmung: Record<string, string> = {
 
 // what each chart will show
 
-export function mapCharts(cols: Cols): Record<string, any> {
+export function mapCharts(cols: Cols) {
     const col = (code: string) => cols[code]
 
     // unweighted n (for display as Anzahl der Befragten)
@@ -311,10 +307,10 @@ export function mapCharts(cols: Cols): Record<string, any> {
         vertrauenbetreiber: {
             type: 'distribution',
             title: 'Vertrauen in öffentliche vs private Betreiber',
-            note: '72 % der Befragten äußerten sich zu dieser Frage (f11 = 1).',
+            note: '72 % der Befragten äußerten sich zu dieser Frage.',
             description: 'Anteil: trifft voll zu + trifft eher zu',
-            n: rawTotalSafe(col('f11')),
-            items: distribution(col('f11'), {
+            n: rawTotalSafe(col('f11b')),
+            items: distribution(col('f11b'), {
                 '1': 'Nur privaten Betreibern', 
                 '2': 'Eher privaten Betreibern', '3': 'Eher öffentlichen Betreibern', '4': 'Nur öffentlichen Betreibern', '5': 'Weiß nicht',
             }),

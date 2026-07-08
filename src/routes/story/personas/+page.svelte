@@ -45,7 +45,7 @@
   function formatFilter(key: string, value: string) {
     const label = FILTER_LABELS[key] ?? key
     const displayValue = FILTER_VALUE_LABELS[key]?.[value] ?? value
-    return `${label} (${key}): ${displayValue}`
+    return `${label}: ${displayValue}`
   }
 
   function personaPalette(color: string) {
@@ -59,7 +59,7 @@
 
   function respondentText(count: number, name: string) {
     const noun = count === 1 ? 'Person' : 'Personen'
-    return `${count} ${noun} aus den Umfragedaten entsprechen den Filtereinstellungen von Persona X (${name}).`
+    return `${count} ${noun} aus den Umfragedaten entsprechen den Filtereinstellungen von Persona ${name}.`
   }
 
   let charts = $derived(storyFilter.charts)
@@ -86,7 +86,7 @@
 
   <!-- persona grid -->
   <div class="persona-grid">
-    {#each PERSONAS as p}
+    {#each PERSONAS as p (p.id)}
       <PersonaCard
         persona={p}
         selected={activeId === p.id}
@@ -110,12 +110,12 @@
   {#if activePersona && activeId}
     <div class="filter-info">
       <span class="filter-label">FILTER</span>
-      {#each Object.entries(activePersona.filters) as [k, v]}
+      {#each Object.entries(activePersona.filters) as [k, v] (k)}
         <span class="filter-tag">{formatFilter(k, String(v))}</span>
       {/each}
       <span class="filter-n">
-        n = {n}
-        {#if n < 10}<span class="filter-n-warn"> · small sample</span>{/if}
+        Anzahl der Befragten: {n}
+        {#if n < 10}<span class="filter-n-warn"> · Kleines Sample</span>{/if}
       </span>
     </div>
 
@@ -126,22 +126,25 @@
 
     <p class="results-label">ERGEBNISSE FÜR {activePersona.name.toUpperCase()}</p>
 
-    <ChartBlock title="Einstellung zu Sensoren allgemein" code="f1">
+    <!-- code="f1" -->
+    <ChartBlock title="Einstellung zu Sensoren allgemein">
       <BarChart items={charts.einstellungtechnik.items} n={charts.einstellungtechnik.n} color={activePersona.color} />
     </ChartBlock>
 
-    <ChartBlock title="Überwachungsgefühl" code="f6A3">
+    <!-- code="f6A3" -->
+    <ChartBlock title="Überwachungsgefühl">
       <Donut items={charts.befindlichkeit.items.find((i: { code: string; distribution: { answer: string; label: string; count: number; percent: number }[] }) => i.code === 'f6A3_1')?.distribution ?? []}
              n={charts.befindlichkeit.n}
              colors={personaPalette(activePersona.color)}
-             size={300} />
+             size={330} />
     </ChartBlock>
 <!-- 
     <ChartBlock title="Vertrauen in Betreiber" code="f11b">
       <BarChart items={charts.vertrauenbetreiber.items} n={charts.vertrauenbetreiber.n} color={activePersona.color} />
     </ChartBlock>
  -->
-    <ChartBlock title="Zustimmung Videoüberwachung nach Ort" code="f20">
+    <!-- code="f20" -->
+    <ChartBlock title="Zustimmung Videoüberwachung nach Ort">
       <BarChart
         items={charts.kamerazustimmungort.items}
         n={charts.kamerazustimmungort.n}

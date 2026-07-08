@@ -1,5 +1,5 @@
 <script lang="ts">
-    import {arc, pie} from 'd3-shape'
+    import {arc, pie, type PieArcDatum} from 'd3-shape'
 
     interface Item {
         answer: string;
@@ -39,10 +39,10 @@
 
     const visibleItems = $derived(items.filter(i => i.count > 0));
 
-    const arcs = $derived(arc<any>().innerRadius(innerR).outerRadius(r).cornerRadius(5)
+    const arcs = $derived(arc<PieArcDatum<Item>>().innerRadius(innerR).outerRadius(r).cornerRadius(5)
     );
-    const labelArc = $derived(arc<any>().innerRadius(labelR).outerRadius(labelR));
-    const outerLabelArc = $derived(arc<any>().innerRadius(outerLabelR).outerRadius(outerLabelR));
+    const labelArc = $derived(arc<PieArcDatum<Item>>().innerRadius(labelR).outerRadius(labelR));
+    const outerLabelArc = $derived(arc<PieArcDatum<Item>>().innerRadius(outerLabelR).outerRadius(outerLabelR));
 
     const slices = $derived(pies(visibleItems));
 
@@ -56,7 +56,7 @@
     <div class="donut-layout" bind:clientWidth={layoutWidth}>
         <svg width={chartSize} height={chartSize} aria-label={title}>
             <g transform="translate({r}, {r})">
-            {#each slices as slice, i }
+            {#each slices as slice, i (slice.data.answer)}
             <path class="donut-slice" d={arcs(slice)} fill={colors[i % colors.length]} stroke="var(--color-background)" stroke-width="1"></path>
             <title>{slice.data.label}: {slice.data.percent}% ({slice.data.count})</title>
             {@const inside = slice.data.percent >= 6}
@@ -78,7 +78,7 @@
         </svg>  
 
         <ul class="donut-legend">
-            {#each visibleItems as item, i}
+            {#each visibleItems as item, i (item.answer)}
             <li class="donut-legend-item">
                 <span class="donut-legend-swatch" style="background: {colors[i % colors.length]}"></span>
                 <span class="donut-legend-label">{item.label}</span>
@@ -92,7 +92,7 @@
 
     {#if note || n}
         <p class="donut-note">
-            {#if n}n = {n} (Anzahl der Befragten){note ? ' · ' : ''}{/if}{note}
+            {#if n}Anzahl der Befragten: {n}{note ? ' · ' : ''}{/if}{note}
         </p>
     {/if}
 </div>

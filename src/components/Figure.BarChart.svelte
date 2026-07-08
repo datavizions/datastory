@@ -63,7 +63,7 @@
     {/if}
     <svg width={width} height={svgHeight} aria-label={title}>
             <g transform={`translate(${margin.left}, ${margin.top})`}>
-            {#each sorted as item, i }
+            {#each sorted as item, i (item.code ?? item.label)}
              {@const y = i * rowHeight}
              {@const barW = xScale(item.percent)}
                  {@const tone = Math.max(40, 76 - i * 8)}
@@ -87,7 +87,7 @@
 
     {#if note || n}
         <p class="bar-note">
-            {#if n}n = {n} (Anzahl der Befragten){note ? ' · ' : ''}{/if}{note}
+            {#if n}Anzahl der Befragten: {n}{note ? ' · ' : ''}{/if}{note}
         </p>
     {/if}
 </div>

@@ -16,10 +16,10 @@ const metadata:  Record<string, QuestionsMetadata> = parseMetadata()
 const result = parse(csvSurveyData, {
     header: true,
     delimiter: ';'
-}) as any
+}) as { headers: string[]; rows: (Record<string, string> | string[])[] }
 
 const headers: string[] = result.headers
-const rows: any[] = result.rows ?? []
+const rows: (Record<string, string> | string[])[] = result.rows ?? []
 
 // extract raw survey weights before preprocessing
 const gewichtIdx = headers.indexOf('Gewicht')
@@ -30,7 +30,7 @@ const rawWeights: number[] = rows.map(row => {
     return isNaN(w) ? 1 : w
 })
 
-const collected: Record<string, any> = {}
+const collected: Record<string, unknown> = {}
 
 headers.forEach((header, index) =>{
     const values = rows.map(row => {
@@ -75,7 +75,7 @@ headers.forEach((header, index) =>{
  fs.writeFileSync(outputRowsPath,
         JSON.stringify(
             rows.map((row) => {
-                const object: Record <string, any> = {}
+                const object: Record <string, unknown> = {}
                 headers.forEach((header, index) => {
                     const raw = Array.isArray(row) ? row[index] : row[header]
                     object[header] = preprocess(raw)

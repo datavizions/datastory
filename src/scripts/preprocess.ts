@@ -1,7 +1,7 @@
-export function preprocess(value: any) {
+export function preprocess(value: unknown) {
 
     // deal with undefined values
-    if (value === undefined || value === null) {
+    if (value === undefined || value === null) {
         return null
     }
 
@@ -25,6 +25,7 @@ export function preprocess(value: any) {
     }
 
     // take care of control characters
+    // eslint-disable-next-line no-control-regex
     return stringValue.replace(/[\u0000-\u001F\u007F-\u009F]/g, "")
 
 

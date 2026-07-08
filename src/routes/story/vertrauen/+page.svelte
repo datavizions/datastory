@@ -34,11 +34,12 @@
     stat={`${percentPublic}%`}
     statFont="var(--font-mono)"
     text="der Befragten vertrauen eher öffentlichen Betreibern bei der datenschutzkonformen Verarbeitung."
-    source="Quelle: ÖFIT 2021, f11b"
+    source="Quelle: ÖFIT 2021"
   />
 
   <div class="trust-donut-block">
-    <ChartBlock title="Vertrauen: öffentlich vs. privat" code="f11b">
+    <!-- code="f11b" -->
+    <ChartBlock title="Vertrauen: öffentlich vs. privat">
     <Donut items={charts.vertrauenbetreiber.items} note={charts.vertrauenbetreiber.note} n={charts.vertrauenbetreiber.n}
            colors={[
              'var(--story-accent-vertrauen)',
@@ -52,12 +53,12 @@
 
 
     <p class="followup-note">
-		Einem Großteil der Befragten ist es wichtig, Kontrolle über die Freigabe mich betreffender Daten zu behalten.
+		Einem Großteil der Befragten ist es wichtig, Kontrolle über die Freigabe sich betreffender Daten zu behalten.
 	</p>
 
   <details class="f10-accordion">
     <summary class="f10-summary">
-      <span>Haltung zu Datenschutz und Datennutzung (f10)</span>
+      <span>Haltung zu Datenschutz und Datennutzung</span>
       <span class="f10-arrow" aria-hidden="true">▾</span>
     </summary>
     <div class="f10-body">

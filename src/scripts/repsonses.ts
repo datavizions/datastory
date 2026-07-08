@@ -5,7 +5,7 @@ export interface AnswerCount {
 // for survey analysis 
 // counts the number of answers per answer possibility
 
-export function answers(values: any[] = []){
+export function answers(values: unknown[] = []){
     const count: Record <string, number> = {}
 
     values.forEach(value => {

@@ -665,27 +665,39 @@
   "vertrauenbetreiber": {
     "type": "distribution",
     "title": "Vertrauen in öffentliche vs private Betreiber",
-    "note": "72 % der Befragten äußerten sich zu dieser Frage (f11 = 1).",
+    "note": "72 % der Befragten äußerten sich zu dieser Frage.",
     "description": "Anteil: trifft voll zu + trifft eher zu",
-    "n": 1004,
+    "n": 715,
     "items": [
       {
-        "answer": "1",
-        "label": "Nur privaten Betreibern",
-        "count": 715,
-        "percent": 72
-      },
-      {
-        "answer": "2",
-        "label": "Eher privaten Betreibern",
-        "count": 228,
-        "percent": 22
+        "answer": "4",
+        "label": "Nur öffentlichen Betreibern",
+        "count": 280,
+        "percent": 38
       },
       {
         "answer": "3",
         "label": "Eher öffentlichen Betreibern",
-        "count": 61,
-        "percent": 6
+        "count": 279,
+        "percent": 38
+      },
+      {
+        "answer": "2",
+        "label": "Eher privaten Betreibern",
+        "count": 102,
+        "percent": 16
+      },
+      {
+        "answer": "5",
+        "label": "Weiß nicht",
+        "count": 33,
+        "percent": 5
+      },
+      {
+        "answer": "1",
+        "label": "Nur privaten Betreibern",
+        "count": 21,
+        "percent": 3
       }
     ]
   },

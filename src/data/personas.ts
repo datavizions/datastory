@@ -27,10 +27,10 @@ export const PERSONAS = [
         emoji: '🧔🏽',
         scene: 'U-Bahn, abends',
         narrative: 'Emre liest einen Artikel über Smart-City-Sensoren.',
-        quote: 'Wenn Unternehmen das machen, ist mir das recht. Die kennen sich aus.',
-        quote2: 'Aber Behörden? Da bin ich skeptisch ...',
+        quote: 'Wenn die Stadt das macht, ist mir das recht. Die kennen sich aus.',
+        quote2: 'Aber Unternehmen? Da bin ich skeptisch ...',
         summary: 'Wenn es die Sicherheit erhöht, bin ich dabei.',
-        subline: 'Vollzeit angestellt, 2-Personen-Haushalt, pragmatisch',
+        subline: 'Vollzeit angestellt, pragmatisch',
         filters: {s1: '1', s2neu: '4', s6: '1'}
     },
     {
@@ -46,7 +46,7 @@ export const PERSONAS = [
         narrative: 'Barbara geht durch den Park. Überall hängen Kameras. Sie fühlt sich beobachtet.',
         quote: 'Wenn etwas passiert, bin ich froh, dass eine Kamera da ist.',
         quote2: 'Aber ich passe trotzdem auf, wie ich mich verhalte. Das ist komisch.',
-        subline: 'Beamte, 1-Personen-Haushalt, aufmerksam',
+        subline: 'Beamte in Teilzeit, aufmerksam',
         filters: {s1: '2', s2neu: '6', s6: '2'}
     },
     {
