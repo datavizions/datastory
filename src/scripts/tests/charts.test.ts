@@ -26,7 +26,8 @@ describe('charts functionalities', () => {
     })
 
     it('perentages for selected answer values', () => {
-        const col = {
+        const col: Col = {
+            label: 'test',
             values: ['1','1','2',null],
             answers: [
                 {answer: '1', count: 2 },
@@ -41,7 +42,8 @@ describe('charts functionalities', () => {
     })
 
     it('distribution list with mapped labels', () => {
-        const col = {
+        const col: Col = {
+            label: 'test',
             values: ['1','1','2',null],
             answers: [
                 {answer: '1', count: 1 }
@@ -55,7 +57,8 @@ describe('charts functionalities', () => {
     })
 
     it('distribution excludes selected answers from denominator and output', () => {
-        const col = {
+        const col: Col = {
+            label: 'test',
             values: ['1', '2', '3', '9'],
             answers: [
                 { answer: '1', count: 1 },
@@ -169,6 +172,36 @@ describe('charts functionalities', () => {
         expect(charts.sensortypen.n).toBe(3)
         expect(charts.wissensensoren.n).toBe(3)
         expect(charts.datenschutzhaltung.n).toBe(2)
+    })
+
+    it('vertauenbetreieber uses f11b for calculation', () => {
+        const cols: Cols = {
+            f11: {
+                label: 'Frage 11',
+                values: ['1','2', 3],
+            answers: [
+                {answer: '1', count: 1 },
+                {answer: '2', count: 1 },
+                {answer: '3', count: 1 },
+            ],
+            },
+            f11b: {
+                label: 'Frage 11b',
+                values: ['3','4', null],
+            answers: [
+                {answer: '3', count: 1 },
+                {answer: '4', count: 1 },
+            ],
+            },
+        }
+
+        const charts = mapCharts(cols)
+
+        expect(charts.vertrauenbetreiber.n).toBe(2)
+        expect(charts.vertrauenbetreiber.items).toEqual([
+            { answer: '3', label: 'Eher öffentlichen Betreibern', count: 1, percent: 50 },
+            { answer: '4', label: 'Nur öffentlichen Betreibern', count: 1, percent: 50 },
+        ])
     })
 
     it('chart specification check', () => {
