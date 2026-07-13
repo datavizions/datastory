@@ -28,10 +28,11 @@
 
     let layoutWidth = $state(0);
 
-    const chartSize = $derived(layoutWidth > 0 ? Math.min(size, layoutWidth) : size);
-
-    // extra space
     const pad = 26;
+
+    const available = $derived(layoutWidth > 0 ? layoutWidth - pad * 2 : size);
+    const chartSize = $derived(Math.max(0, Math.min(size, available) * 0.95));
+
     const svgSize = $derived(chartSize + pad * 2);
     const center = $derived(svgSize / 2);
 
@@ -180,6 +181,8 @@
         flex-shrink: 0;
         display: block;
         margin-inline: auto;
+        max-width: 100%;
+        height: auto;
     }
 
     .donut-legend {
