@@ -46,6 +46,7 @@ export const PERSONAS = [
         narrative: 'Barbara geht durch den Park. Überall hängen Kameras. Sie fühlt sich beobachtet.',
         quote: 'Wenn etwas passiert, bin ich froh, dass eine Kamera da ist.',
         quote2: 'Aber ich passe trotzdem auf, wie ich mich verhalte. Das ist komisch.',
+        summary: 'Kameras geben mir Sicherheit auch wenn ich mich dann beobachtet fühle.',
         subline: 'Beamte in Teilzeit, aufmerksam',
         filters: {s1: '2', s2neu: '6', s6: '2'}
     },
@@ -62,6 +63,7 @@ export const PERSONAS = [
         narrative: 'Valentina trägt immer ihre Smartwatch.',
         quote: 'Mein Handy weiß eh alles über mich.',
         quote2: 'Eine Kamrea mehr macht da auch keinen Unterschied.',
+        summary: 'Meine Daten sind längst überall. Eine Kamera mehr stört mich nicht.',
         subline: 'Schülerin, digital native, unbesorgt',
         filters: {s1: '2', s2neu: '1', s6: '6'}
     }
