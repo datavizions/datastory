@@ -1,4 +1,4 @@
-# Data Story Sensoren
+# Data Story
 
 An interactive data story about the perception of sensors in public space
 ("Wahrnehmung von Sensoren im öffentlichen Raum"). The project turns raw survey
